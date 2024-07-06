@@ -1,0 +1,734 @@
+/* CSS Reset Start */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Lato';
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+/* CSS Reset END */
+
+
+/* Navbar START */
+
+.talk-to-expert {
+    width: 161px;
+    height: 54px;
+    border: 1px solid #D4D5D9;
+    background-color: transparent;
+}
+
+.talk-to-expert p {
+    text-align: left;
+    font: normal normal normal 16px/20px Inter;
+    color: #333333;
+}
+
+.navbar {
+    border-bottom: 1px solid #e8e6e6;
+}
+
+/* Navbar End */
+
+/* Video Start */
+
+.video-pop {
+    background: #FFFFFF 0% 0%;
+    box-shadow: 0px 0px 12px #00000029;
+    width: 290px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.video-pop .girl-img {
+    width: 117px;
+}
+
+.video-pop p {
+    font: normal normal 600 13px/18px Inter;
+    width: 100px;
+}
+
+.video-pop .play-icon{
+   width: 35px;
+}
+
+/* Video End */
+
+/* Hero Section Start */
+
+.hero-section-outer-cover {
+    height: 495px;
+    width: 496px;
+    background-color: #c6f3ff;
+    padding: 0 5px 40px 35px;
+    border-radius: 190px 275px 200px 0;
+    margin-top: 8px;
+    margin-right: 23px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.hero-section-inner {
+    background-color: #effbff;
+    width: 455px;
+    height: 455px;
+    padding: 94px 0 26px 36px;
+    border-radius: 158px 271px 163px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-section-inner .title {
+    font: normal normal 600 24px/29px Work Sans;
+    letter-spacing: 0px;
+    color: #333333;
+    max-width: 300px;
+}
+
+.hero-section-outer-cover .video-pop .girl-img{
+   width: 39px;
+}
+
+.hero-section-outer-cover .video-pop{
+    right: 20px;
+    top: 5px;
+ }
+
+.hero-section-inner .title .spc {
+    color: #19C2F2;
+}
+
+.hero-section-inner .question-title {
+    font: normal normal normal 16px/20px Inter;
+    color: #080808;
+    max-width: 300px;
+}
+
+.hero-section-inner ul li {
+    font: normal normal normal 16px/20px Inter;
+    color: #080808;
+}
+
+.hero-section-inner ul li::before {
+    content: "";
+    background-color: #19C2F2;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: -10px;
+}
+
+.hero-img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.form-title {
+    font: normal normal 600 24px / 35px Work Sans;
+    letter-spacing: 0px;
+    color: #171A21;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.custom-wrap {
+    gap: 30px;
+    margin-top: 30px;
+    font: normal normal normal 13px/16px Inter;
+    color: #333333;
+}
+
+.custom-wrap .inputFieldCust input,
+select {
+    width: 314px;
+    height: 43px;
+    border: 1px solid #D2D3D4;
+    border-radius: 4px;
+    padding-left: 13px;
+}
+
+.custom-wrap .inputFieldCust .common-feild:focus {
+    border-radius: 4px;
+    border-color: #107591;
+    border-width: 2px;
+}
+
+.custom-wrap .radiocustom input {
+    opacity: 0px;
+    height: 0px;
+    width: 0px;
+}
+
+.custom-wrap .radiocustom {
+    width: 158px;
+    height: 43px;
+    border: 1px solid #D2D3D4;
+}
+
+.smokeNo,
+.gendmale {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.smokeYes,
+.gendfemale {
+    border-radius: 0px 4px 4px 0px;
+}
+
+form button {
+    border: none;
+    height: 54px;
+    width: 224px;
+    background: #F2581B;
+    border-radius: 4px;
+    color: white;
+    margin: 0px auto;
+}
+
+form button span {
+    font: normal normal 600 14px/17px Inter;
+    text-transform: uppercase;
+}
+
+.privacy-policy {
+    text-align: center;
+    font: normal normal normal 12px/17px Inter-Regular;
+    color: #808080;
+}
+
+/* Hero Section End */
+
+/* Our Insurance Section Start */
+
+.our-insurance {
+    background-color: #EFFBFF;
+    text-align: center;
+    padding-bottom: 51px;
+}
+
+.our-insurance .title {
+    font: normal normal 600 24px/26px Inter;
+}
+
+.partners {
+    background-color: #ffff;
+    border: 0.5px solid #E8E9EC;
+    width: 121px;
+    margin: 0px 10px;
+    height: 66px;
+}
+
+.partners img {
+    width: 109px;
+}
+
+
+/* Our Insurance Section End */
+
+
+/* Car Insurance Section Start */
+
+.car-insurance {
+    max-width: 1074px;
+    margin: 0px auto;
+    color: #080808;
+    letter-spacing: 0px;
+}
+
+.car-insurance .title {
+    font: normal normal 600 24px/34px Inter;
+}
+
+.descrption {
+    font: normal normal normal 16px/26px Inter;
+}
+
+/* Car Insurance Section End */
+
+
+
+/* Key Feature Section Start  Also have common CSS*/
+.key-features,
+.diff-btw,
+.premium-cal,
+.factor-to-consdier,
+.renew-insurance {
+    background-color: #EFFBFF;
+}
+
+.key-features-inner,
+.diff-btw-inner,
+.premium-cal-inner,
+.factor-to-consdier-inner,
+.renew-insurance-inner {
+    max-width: 1068px;
+    margin: 0px auto;
+}
+
+.key-features-inner .title,
+.need-insurance .title,
+.diff-btw .title,
+.addon-covers .title,
+.premium-cal .title,
+.premium-cal-inner .card .title,
+.factor-to-consdier .title,
+.renew-insurance .title {
+    font: normal normal 600 24px/34px Inter;
+    color: #080808;
+}
+
+.key-features-inner .subtitle,
+.need-insurance .subtitle,
+.diff-btw .subtitle,
+.addon-covers .subtitle,
+.premium-cal .subtitle,
+.premium-cal-inner .card .subtitle,
+.factor-to-consdier .subtitle,
+.renew-insurance .subtitle {
+    font: normal normal normal 16px/26px Inter;
+    color: #080808;
+}
+
+.key-features-inner .table,
+.diff-btw .table {
+    border: 1px solid #B9B9B9;
+}
+
+.key-features-inner .table tr th,
+.diff-btw .table tr th {
+    background-color: #C6F3FF;
+    font: normal normal 600 16px/26px Inter;
+}
+
+.key-features-inner .table tbody tr td,
+.diff-btw .table tr td {
+    background-color: white;
+    font: normal normal normal 16px/24px Inter;
+    padding-left: 18px;
+    max-width: 664px;
+}
+
+/* Key Feature Section End */
+
+/* Need Insurance Section End */
+
+.need-insurance,
+.addon-covers {
+    max-width: 1074px;
+    margin: 0px auto;
+}
+
+.need-insurance .need-insurance-card {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 68px;
+    column-gap: 72px;
+    color: #080808;
+    opacity: 1;
+}
+
+.need-insurance .need-insurance-card .pointer p {
+    font: normal normal 600 20px/26px Inter;
+}
+
+.need-insurance .need-insurance-card .descrption {
+    padding-left: 30px;
+}
+
+/* Need Insurance Section End */
+
+
+/* Diff btn TR, OD,CC Section Start */
+
+.diff-btw-inner tbody tr {
+    height: 56px;
+}
+
+.diff-btw tbody tr img {
+    margin: 0px auto;
+    padding-top: 8px;
+}
+
+.diff-btw tbody tr td {
+    padding: 18px;
+}
+
+/* Diff btn TR, OD,CC Section End */
+
+
+/* Addon covers Section Start */
+
+.addon-covers ol li h4 {
+    font: normal normal 600 20px/26px Inter !important;
+}
+
+.addon-covers ol li p {
+    font: normal normal normal 16px/26px Inter !important;
+    color: #080808;
+}
+
+.addon-covers ol li::marker {
+    font: normal normal normal 20px/26px Inter;
+}
+
+/* Addon covers Section End */
+
+/* Premium Section Start */
+
+.premium-cal-inner .row {
+    gap: 35px;
+}
+
+.premium-cal-inner .card,
+.factor-to-consdier .card {
+    width: 332px;
+    padding: 32px;
+    border: none;
+    color: #080808;
+    border-radius: 16px;
+}
+
+/* Premium Section End */
+
+/* Facotr to consider Start */
+
+.factor-to-consdier .row {
+    gap: 35px;
+}
+
+.factor-to-consdier .card {
+    width: 516px;
+}
+
+.factor-to-consdier .card .title {
+    font: normal normal 600 20px/26px Inter;
+}
+
+.factor-to-consdier .card .subtitle {
+    font: normal normal normal 16px/26px Inter;
+}
+
+.factor-to-consdier .card .header-question span {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    background: #C6F3FF;
+    border-radius: 50%;
+    font: normal normal 600 20px / 26px Inter;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+/* Facotr to consider End */
+
+
+/* Renew insurance Start */
+
+.renew-insurance-inner .row {
+    gap: 35px;
+}
+
+.renew-insurance-inner .card {
+    width: 516px;
+    background: transparent;
+    border: none;
+}
+
+.renew-insurance-inner .card .title {
+    font: normal normal 600 20px/26px Inter;
+}
+
+.renew-insurance-inner .card .subtitle {
+    font: normal normal normal 16px/26px Inter;
+}
+
+.renew-insurance-inner .card .header-question span {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    background: #C6F3FF;
+    border-radius: 50%;
+    font: normal normal 600 20px / 26px Inter;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.renew-insurance-inner .subtitle span,
+.renew-insurance-inner .subtitle a {
+    color: #19C2F2;
+    text-decoration: none;
+}
+
+.renew-insurance-inner .note .bold {
+    font: normal normal 600 16px/26px Inter;
+}
+
+/* Renew insurance End */
+
+/* Footer Srart */
+
+.footer {
+    background-color: #F1F2F6;
+    padding: 25px 0px 22px 0px;
+}
+
+.footer-inner {
+    max-width: 1350px;
+    margin: 0px auto;
+    color: #808080;
+}
+
+.footer-inner p span {
+    font: normal normal bold 14px/24px Inter;
+}
+
+.footer p {
+    font: normal normal normal 12px/24px Inter;
+}
+
+/* Footer End */
+
+
+/* Mobile Responsive Start */
+
+@media only screen and (max-width:767px) {
+
+    .navbar .navbar-brand img {
+        width: 121px;
+    }
+
+    .hero-section-outer-cover {
+        height: 252px;
+        width: 100%;
+        padding: 0 3px 8px 8px;
+        border-radius: 41px 108px 78px 0;
+        margin-top: 12px;
+        margin-right: 0;
+    }
+
+    .hero-section-inner {
+        width: 100%;
+        height: 243px;
+        padding: 10px 0px 0px 15px;
+        border-radius: 41px 106px 74px 0;
+    }
+
+    .hero-section-inner .title {
+        font: normal normal 600 16px/20px Work Sans;
+        max-width: 230px;
+    }
+
+    .hero-section-inner .question-title {
+        font: normal normal normal 12px/18px Inter;
+    }
+
+    .hero-section-inner ul li {
+        font: normal normal normal 12px/20px Inter;
+        width: 210px;
+    }
+
+    .hero-section-inner .hero-img {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .hero-section-inner .hero-img img {
+        width: 50%;
+    }
+
+    .hero-section-inner ul li::before {
+        width: 6px;
+        height: 6px;
+        top: 8px;
+        left: -9px;
+    }
+
+    .form-title {
+        font-size: 16px;
+    }
+
+    .custom-wrap {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .custom-wrap .inputFieldCust input,
+    select {
+        width: 344px;
+    }
+
+    .custom-wrap .radiocustom {
+        width: 173px;
+    }
+
+    form button {
+        width: 344px;
+    }
+
+    .car-insurance .title {
+        font: normal normal 600 18px/26px Inter;
+    }
+
+    .descrption {
+        font: normal normal normal 14px/24px Inter;
+    }
+
+    .key-features-inner .title,
+    .need-insurance .title,
+    .diff-btw .title,
+    .addon-covers .title,
+    .premium-cal .title,
+    .premium-cal-inner .card .title,
+    .factor-to-consdier .title,
+    .renew-insurance .title {
+        font: normal normal 600 18px/26px Inter;
+        color: #080808;
+    }
+
+    .key-features-inner .subtitle,
+    .need-insurance .subtitle,
+    .diff-btw .subtitle,
+    .addon-covers .subtitle,
+    .premium-cal .subtitle,
+    .premium-cal-inner .card .subtitle,
+    .factor-to-consdier .subtitle,
+    .renew-insurance .subtitle {
+        font: normal normal normal 14px/24px Inter;
+        color: #080808;
+    }
+
+    .key-features-inner .table tr th {
+        font: normal normal 600 14px/24px Inter;
+    }
+
+    .diff-btw .table tr th,
+    .diff-btw .table tr td {
+        font: normal normal normal 11px/16px Inter;
+    }
+
+    .diff-btw tbody tr img {
+        width: 16px;
+        padding-top: 12px;
+    }
+
+    .key-features-inner .table tbody tr td {
+        font: normal normal normal 14px/24px Inter;
+        padding-left: 3px;
+        padding-right: 0px;
+        max-width: 100%;
+    }
+
+    .need-insurance .need-insurance-card {
+        grid-template-columns: 1fr;
+        row-gap: 22px;
+    }
+
+    .need-insurance .need-insurance-card .pointer p {
+        font: normal normal 600 16px/24px Inter;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0px;
+    }
+
+    .addon-covers ol li .title,
+    .premium-cal-inner .card .title {
+        font: normal normal 600 16px/24px Inter !important;
+    }
+
+    .addon-covers ol li .subtitle,
+    .premium-cal-inner .card .subtitle {
+        font: normal normal normal 14px/24px Inter !important;
+    }
+
+    .premium-cal-inner .card,
+    .factor-to-consdier .card {
+        padding: 16px;
+        width: 343px;
+    }
+
+    .factor-to-consdier .card .header-question span,
+    .renew-insurance-inner .card .header-question span {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .factor-to-consdier .card .title,
+    .renew-insurance-inner .card .title {
+        font-size: 16px;
+    }
+
+    .factor-to-consdier .card .subtitle,
+    .renew-insurance-inner .card .subtitle {
+        font-size: 14px;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        align-items: start !important;
+    }
+}
+
+/* Mobile Responsive End */
