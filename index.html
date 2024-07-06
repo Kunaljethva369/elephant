@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -41,7 +42,8 @@
     <main>
 
         <!-- Video Start -->
-        <div class="video-pop d-lg-flex align-items-center gap-2 position-fixed bottom-0 mb-2 p-2 rounded-3 d-none">
+        <div class="video-pop d-lg-flex align-items-center gap-2 position-fixed bottom-0 mb-2 p-2 rounded-3 d-none"
+            type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="./assets/youtube-girl.png" class="girl-img" alt="play-icon">
             <p>Laxmi revealing the exclusive deal on Term Life insurance</p>
             <img src='./assets/play-icon.svg' class="play-icon" alt="play-icon">
@@ -49,12 +51,12 @@
         <!-- Video End -->
 
         <!-- Hero Section Start -->
-        <section class="container">
+        <section class="container hero-section">
             <div class="row">
                 <div class="col-12 col-lg-5">
                     <div class="hero-section-outer-cover position-relative">
-                        <div
-                            class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-lg-none">
+                        <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-lg-none"
+                            type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
                         </div>
                         <div class="hero-section-inner">
@@ -220,7 +222,7 @@
         <!-- Our Insurance End -->
 
         <!-- Car and What is car Insurance Start -->
-        <section class="car-insurance pb-5 px-3 px-lg-0">
+        <section class="car-insurance pb-5 px-3 px-md-4 px-lg-0">
             <div class="mt-5">
                 <h2 class="text-center title">Car Insurance</h2>
                 <p class="descrption">Car insurance is a type of motor policy that protect you from financial loss
@@ -248,7 +250,7 @@
         <!-- Car and What is car Insurance End -->
 
         <!-- Key Feature Start -->
-        <section class="key-features pt-5 pb-5 px-3 px-lg-0">
+        <section class="key-features pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="key-features-inner">
                 <h2 class="title text-center mb-3">Key Features of Car Insurance Policy</h2>
                 <h4 class="subtitle text-center">The following are the salient features of a car insurance policy.</h4>
@@ -294,7 +296,7 @@
         <!-- Key Feature End -->
 
         <!-- Need Insurance Start -->
-        <section class="need-insurance pt-5 pb-5 px-3 px-lg-0">
+        <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="need-insurance">
                 <h2 class="title text-center mb-3">Why do you need Car Insurance?</h2>
                 <h4 class="subtitle text-center mb-3 mb-lg-5">Car insurance provides several benefits to policyholders.
@@ -374,7 +376,7 @@
 
 
         <!-- Difference Btw TR,OD & CC Start -->
-        <section class="diff-btw pt-5 pb-5 px-3 px-lg-0">
+        <section class="diff-btw pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="diff-btw-inner">
                 <h2 class="title text-center mb-3">Difference Between Third Party, Own Damages, and Comprehensive Car
                     Insurance</h2>
@@ -464,7 +466,7 @@
 
 
         <!-- Addon covers Start -->
-        <section class="addon-covers pt-5 pb-5 px-3 px-lg-0">
+        <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <h2 class="title text-center mb-3">What are the add-on covers in Car Insurance policy?</h2>
             <h4 class="subtitle text-center">Add-on covers are extra benefits that you can add to your car or
                 four-wheeler insurance policy to increase your protection. You can buy it with a comprehensive car
@@ -557,7 +559,7 @@
 
 
         <!-- Premium Calculated Start -->
-        <section class="premium-cal pt-5 pb-5 px-3 px-lg-0">
+        <section class="premium-cal pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="premium-cal-inner">
                 <h2 class="title text-center mb-3">How Is Car Insurance Premium Calculated?</h2>
                 <h4 class="subtitle text-center">The premium of third-party car insurance plans is regulated by IRDAI,
@@ -604,7 +606,7 @@
 
 
         <!-- Reduce Insurance Start -->
-        <section class="need-insurance pt-5 pb-5 px-3 px-lg-0">
+        <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="need-insurance">
                 <h2 class="title text-center mb-3">How to Reduce Car Insurance Premium?</h2>
                 <h4 class="subtitle text-center mb-5">While car insurance provides financial protection against
@@ -701,7 +703,7 @@
         <!-- Reduce Insurance End -->
 
         <!-- Factor to Consider Start -->
-        <section class="factor-to-consdier pt-5 pb-5 px-3 px-lg-0">
+        <section class="factor-to-consdier pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="factor-to-consdier-inner">
                 <h2 class="title text-center mb-3">Factors to Consider While Selecting Car Insurance Policy</h2>
                 <h4 class="subtitle text-center">Generally, buying car insurance requires a lot of time to do research.
@@ -709,7 +711,7 @@
                     policy:</h4>
                 <div class="container mt-3 mt-lg-5">
                     <div class="row">
-                        <div class="col-lg-6 card">
+                        <div class="col-lg-6 col-md-12 card">
                             <div class="header-question d-flex align-items-center">
                                 <span class="d-flex align-items-center justify-content-center">1</span>
                                 <h4 class="title">When getting car insurance, you have two choices</h4>
@@ -720,7 +722,7 @@
                                 disasters, personal accidents and more. At Elephant.in, you can choose from different
                                 types of car insurance policies to find the one that’s best for you and your car.</p>
                         </div>
-                        <div class="col-lg-6 card">
+                        <div class="col-lg-6 col-md-12 card">
                             <div class="header-question d-flex align-items-center">
                                 <span class="d-flex align-items-center justify-content-center">2</span>
                                 <h4 class="title">Check policy coverage</h4>
@@ -730,7 +732,7 @@
                                 live. To help make an informed decision, you can use Elephant.in’s compare and buy
                                 feature to find a suitable insurance policy.</p>
                         </div>
-                        <div class="col-lg-6 card">
+                        <div class="col-lg-6 col-md-12 card">
                             <div class="header-question d-flex align-items-center">
                                 <span class="d-flex align-items-center justify-content-center">3</span>
                                 <h4 class="title">Check the availability of add-ons</h4>
@@ -742,7 +744,7 @@
                                 selecting the right add-ons, you can ensure comprehensive protection for your vehicle.
                             </p>
                         </div>
-                        <div class="col-lg-6 card">
+                        <div class="col-lg-6 col-md-12 card">
                             <div class="header-question d-flex align-items-center">
                                 <span class="d-flex align-items-center justify-content-center">4</span>
                                 <h4 class="title">Check insured declared value</h4>
@@ -755,7 +757,7 @@
                                 even though it may result in lower premiums. On the other hand, a higher IDV may mean
                                 more expensive premiums.</p>
                         </div>
-                        <div class="col-lg-6 card">
+                        <div class="col-lg-6 col-md-12 card">
                             <div class="header-question d-flex align-items-center">
                                 <span class="d-flex align-items-center justify-content-center">5</span>
                                 <h4 class="title">Check network of cashless garages</h4>
@@ -766,7 +768,7 @@
                                 saving you from having to spend a lot of money on repairs. Hence, it is important to
                                 check that there is a strong network of cashless garages near you.</p>
                         </div>
-                        <div class="col-lg-6 card">
+                        <div class="col-lg-6 col-md-12 card">
                             <div class="header-question d-flex align-items-center">
                                 <span class="d-flex align-items-center justify-content-center">6</span>
                                 <h4 class="title">Check claim settlement ratio, review, and the quality of services
@@ -785,7 +787,7 @@
         <!-- Factor to Consider End -->
 
         <!-- Renew insurance Start -->
-        <section class="renew-insurance pt-5 pb-5 px-3 px-lg-0">
+        <section class="renew-insurance pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <div class="renew-insurance-inner">
                 <h2 class="title text-center mb-3">How To Renew Expired Car Insurance Online?</h2>
                 <h4 class="subtitle text-center">Renewing expired car insurance online in India has become a convenient
@@ -905,7 +907,7 @@
         <!-- Renew insurance End -->
 
         <!-- Addon covers Start -->
-        <section class="addon-covers pt-5 pb-5 px-3 px-lg-0">
+        <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-0">
             <h2 class="title text-center mb-3">Car Insurance Terms You Need to Know About</h2>
             <h4 class="subtitle text-center">Understanding the nuances of car insurance is vital for any vehicle owner
                 to ensure they have the right coverage and make informed decisions. Here’s a more detailed explanation
@@ -996,17 +998,364 @@
         </section>
         <!-- Addon covers End -->
 
+        <!-- FAQ Start -->
+        <section class="faq pt-5 pb-5 px-3 px-md-4 px-lg-0">
+            <div class="faq-inner">
+                <h2 class="title text-center mb-3">Car Insurance FAQs</h2>
+                <div class="container  mt-3 mt-lg-5">
+                    <div>
+                        <div class="navtabs d-flex">
+                            <div class="navtab active" data-target="general">General</div>
+                            <div class="navtab" data-target="policy">Policy</div>
+                            <div class="navtab" data-target="coverage">Coverage</div>
+                            <div class="navtab" data-target="premium">Premium</div>
+                            <div class="navtab" data-target="claim">Claim</div>
+                        </div>
+                        <div id="general" class="content active">
+                            <div class="accordion mt-lg-2" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What is third party insurance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Third-party insurance is a type of liability insurance that a car owner buys
+                                            to safeguard themselves against claims made by a third party. In case of an
+                                            accident, the third-party insurance policyholder is responsible for
+                                            compensating any losses or damages incurred by the third party.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Is it mandatory to buy car insurance in India?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Which is the best car insurance company in India 2023?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="policy" class="content">
+                            <div class="accordion mt-lg-2" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Which is the best car insurance company in India 2023?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What is third party insurance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Third-party insurance is a type of liability insurance that a car owner buys
+                                            to safeguard themselves against claims made by a third party. In case of an
+                                            accident, the third-party insurance policyholder is responsible for
+                                            compensating any losses or damages incurred by the third party.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Is it mandatory to buy car insurance in India?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="coverage" class="content">
+                            <div class="accordion mt-lg-2" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Which is the best car insurance company in India 2023?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Is it mandatory to buy car insurance in India?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What is third party insurance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Third-party insurance is a type of liability insurance that a car owner buys
+                                            to safeguard themselves against claims made by a third party. In case of an
+                                            accident, the third-party insurance policyholder is responsible for
+                                            compensating any losses or damages incurred by the third party.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="premium" class="content">
+                            <div class="accordion mt-lg-2" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Which is the best car insurance company in India 2023?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What is third party insurance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Third-party insurance is a type of liability insurance that a car owner buys
+                                            to safeguard themselves against claims made by a third party. In case of an
+                                            accident, the third-party insurance policyholder is responsible for
+                                            compensating any losses or damages incurred by the third party.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Is it mandatory to buy car insurance in India?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="claim" class="content">
+                            <div class="accordion mt-lg-2" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Is it mandatory to buy car insurance in India?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What is third party insurance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Third-party insurance is a type of liability insurance that a car owner buys
+                                            to safeguard themselves against claims made by a third party. In case of an
+                                            accident, the third-party insurance policyholder is responsible for
+                                            compensating any losses or damages incurred by the third party.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Which is the best car insurance company in India 2023?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ End -->
+
 
         <!-- Modal -->
-        <div class="modal fade modal-dialog modal-dialog-centered" id="exampleModal" tabindex="-1"
+        <div class="modal fade modal-dialog modal-dialog-centered position-fixed d-none" id="exampleModal" tabindex="-1"
             aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
+                <div class="modal-content bg-transparent shadow-none border-0">
+                    <div class="modal-header border-0">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <video src="https://www.youtube.com/watch?v=KxMwXxrHwFk"></video>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/UaylSc1hB9o?autoplay=1" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1025,6 +1374,104 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     var splide = new Splide('#heroSlider', {
+        //         type: "loop",
+        //         perPage: 1,
+        //         perMove: 1,
+        //         arrows: false,
+        //         drag: true,
+        //         height: "495px",
+        //         autoplay: true,
+        //         interval: 3000,
+        //         pagination: true,
+        //         direction: "ttb",
+        //     });
+        //     splide.mount();
+        // });
+        // new Splide('#slider1').mount();
+
+        // new Splide('#slider2').mount();
+
+        // new Splide('#slider3').mount();
+
+        // var elms = document.getElementsByClassName('splide');
+
+        // for (var i = 0; i < elms.length; i++) {
+        //     new Splide(elms[i]).mount();
+        // }
+
+        const tabs = document.querySelectorAll('.navtab');
+        const contents = document.querySelectorAll('.content');
+
+        function updateUnderline() {
+            const activeTab = document.querySelector('.navtab.active');
+        }
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const target = tab.getAttribute('data-target');
+                contents.forEach(content => {
+                    if (content.id === target) {
+                        content.classList.add('active');
+                    } else {
+                        content.classList.remove('active');
+                    }
+                });
+                updateUnderline();
+            });
+        });
+        updateUnderline();
+
+        // var deviceWidth = $(window).width();
+        // if ($("#heroSlider").length > 0) {
+        //     if (deviceWidth <= 767) {
+        //         new Splide("#heroSlider", {
+        //             type: "loop",
+        //             perPage: 1,
+        //             perMove: 1,
+        //             arrows: false,
+        //             drag: true,
+        //             height: "244px",
+        //             autoplay: true,
+        //             interval: 3000,
+        //             pagination: true,
+        //             direction: "ttb",
+        //         }).mount();
+        //     } else if (deviceWidth >= 768 && deviceWidth <= 1199) {
+        //         new Splide("#heroSlider", {
+        //             type: "loop",
+        //             perPage: 1,
+        //             perMove: 1,
+        //             arrows: false,
+        //             drag: true,
+        //             height: "188px",
+        //             autoplay: true,
+        //             interval: 3000,
+        //             pagination: true,
+        //             direction: "ttb",
+        //         }).mount();
+        //     } else {
+        //         new Splide("#heroSlider", {
+        //             type: "loop",
+        //             perPage: 1,
+        //             perMove: 1,
+        //             arrows: false,
+        //             drag: true,
+        //             height: "354px",
+        //             autoplay: true,
+        //             interval: 3000,
+        //             pagination: true,
+        //             direction: "ttb",
+        //         }).mount();
+        //     }
+        // }
+    </script>
 
 </body>
 

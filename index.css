@@ -106,8 +106,8 @@ p {
     width: 100px;
 }
 
-.video-pop .play-icon{
-   width: 35px;
+.video-pop .play-icon {
+    width: 35px;
 }
 
 /* Video End */
@@ -143,14 +143,14 @@ p {
     max-width: 300px;
 }
 
-.hero-section-outer-cover .video-pop .girl-img{
-   width: 39px;
+.hero-section-outer-cover .video-pop .girl-img {
+    width: 39px;
 }
 
-.hero-section-outer-cover .video-pop{
+.hero-section-outer-cover .video-pop {
     right: 20px;
     top: 5px;
- }
+}
 
 .hero-section-inner .title .spc {
     color: #19C2F2;
@@ -314,7 +314,8 @@ form button span {
 .diff-btw,
 .premium-cal,
 .factor-to-consdier,
-.renew-insurance {
+.renew-insurance,
+.faq {
     background-color: #EFFBFF;
 }
 
@@ -322,7 +323,8 @@ form button span {
 .diff-btw-inner,
 .premium-cal-inner,
 .factor-to-consdier-inner,
-.renew-insurance-inner {
+.renew-insurance-inner,
+.faq-inner {
     max-width: 1068px;
     margin: 0px auto;
 }
@@ -334,7 +336,8 @@ form button span {
 .premium-cal .title,
 .premium-cal-inner .card .title,
 .factor-to-consdier .title,
-.renew-insurance .title {
+.renew-insurance .title,
+.faq .title {
     font: normal normal 600 24px/34px Inter;
     color: #080808;
 }
@@ -526,6 +529,89 @@ form button span {
 
 /* Renew insurance End */
 
+/* FAQ Start */
+.faq .navtabs {
+    border-bottom: 0.5px solid #838383;
+}
+
+.faq .navtabs .navtab {
+    width: 124px;
+    height: 44px;
+    border-radius: 12px 12px 0px 0px;
+    border: 0.5px solid #838383;
+    color: #838383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq .navtabs .navtab.active {
+    background: #96E5FC;
+    border: none;
+    font: normal normal 600 16px/26px Inter;
+    color: #080808;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.accordion-collapse,
+.accordion-button {
+    background: #EFFBFF;
+}
+
+.accordion-button {
+    font: normal normal 600 16px/26px Inter;
+    color: #080808;
+}
+
+
+.accordion-body {
+    font: normal normal normal 14px/24px Inter;
+    color: #080808;
+    padding: 10px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #EFFBFF;
+    color: #080808;
+}
+
+.accordion-button {
+    padding: 0px 10px 0px 0px;
+}
+
+.accordion-item,
+.accordion-item:not(:first-of-type) {
+    border-top: 0.5px solid #838383;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    padding: 20px 0px;
+    background-color: transparent;
+}
+
+.accordion-item:first-of-type {
+    border-top: 0px solid #838383;
+}
+
+.accordion-button::after {
+    background-image: url('./assets/plus-icon.svg') !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('./assets/minus-icon.svg') !important;
+}
+
+
+/* FAQ End */
+
 /* Footer Srart */
 
 .footer {
@@ -549,6 +635,44 @@ form button span {
 
 /* Footer End */
 
+/* Modal Css Start */
+.modal {
+    max-width: 500px;
+    width: 100%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+/* Modal Css End */
+
+
+/* Tablet Responsive Start */
+
+@media only screen and (min-width:768px) and (max-width:1229px) {
+
+    .factor-to-consdier .card,
+    .renew-insurance-inner .card {
+        width: 713px;
+        margin: 0px auto;
+    }
+
+    .hero-section {
+        display: none;
+    }
+}
+
+/* Tablet Responsive End */
 
 /* Mobile Responsive Start */
 
@@ -728,6 +852,11 @@ form button span {
     .footer-inner {
         flex-direction: column;
         align-items: start !important;
+    }
+
+    .faq .navtabs .navtab,
+    .faq .navtabs .navtab.active {
+        font: normal normal 600 12px/24px Inter;
     }
 }
 
