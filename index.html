@@ -42,7 +42,7 @@
     <main>
 
         <!-- Video Start -->
-        <div class="video-pop d-lg-flex align-items-center gap-2 position-fixed bottom-0 mb-2 p-2 rounded-3 d-none"
+        <div class="video-pop d-lg-flex align-items-center gap-2 position-fixed bottom-0 mb-2 p-2 rounded-3 d-md-flex d-none"
             type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="./assets/youtube-girl.png" class="girl-img" alt="play-icon">
             <p>Laxmi revealing the exclusive deal on Term Life insurance</p>
@@ -51,11 +51,11 @@
         <!-- Video End -->
 
         <!-- Hero Section Start -->
-        <section class="container hero-section">
+        <section class="container hero-section d-flex">
             <div class="row">
-                <div class="col-12 col-lg-5">
+                <div class="left-section">
                     <div class="hero-section-outer-cover position-relative">
-                        <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-lg-none"
+                        <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
                             type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
                         </div>
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-7">
+                <div class="right-section">
                     <h4 class="form-title">Comapre & Buy Term Life Insurance</h4>
                     <div class="form">
                         <form>
@@ -98,8 +98,9 @@
                             </div>
                             <div class="custom-wrap d-flex align-items-end justify-content-center">
                                 <div class="radio-container d-flex">
+                                    
                                     <div class="radiocustom smokeNo">
-                                        <label class="d-flex align-items-center justify-content-around h-100">
+                                        <label class="d-flex align-items-center justify-content-around h-100 checked">
                                             <img src="./assets/no-cigi.svg">
                                             <span>No</span>
                                             <input type="radio" name="tabaco">
@@ -161,9 +162,12 @@
                             <div class="custom-wrap d-flex align-items-end justify-content-center">
                                 <div class="email-feild inputFieldCust">
                                     <input class="common-feild" type="email" placeholder="Personal Email ID">
+                                    <p class="label mt-lg-1 mx-lg-1">Your quote, policy and all communications will be
+                                        sent on it</p>
                                 </div>
                                 <div class="inputFieldCust">
                                     <input type="number" placeholder="Mobile Number">
+                                    <p class="label mt-lg-1 mx-lg-1">Mobile No. will be your Customer Login ID</p>
                                 </div>
                             </div>
                             <button type="submit"
@@ -184,6 +188,9 @@
                             <div class="whatsapp d-flex align-items-center justify-content-center gap-2 mt-2 mb-3">
                                 <img src="./assets/whatsapp-icon.svg">
                                 <p>Get updates on WhatsApp</p>
+                                <div class="check-box position-relative">
+                                    <input type="checkbox" checked>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -191,7 +198,6 @@
             </div>
         </section>
         <!-- Hero Section End -->
-
 
         <!-- Our Insurance Start -->
         <section class="container-fluid our-insurance">
@@ -222,7 +228,7 @@
         <!-- Our Insurance End -->
 
         <!-- Car and What is car Insurance Start -->
-        <section class="car-insurance pb-5 px-3 px-md-4 px-lg-0">
+        <section class="car-insurance pb-5 px-3 px-md-4 px-lg-3">
             <div class="mt-5">
                 <h2 class="text-center title">Car Insurance</h2>
                 <p class="descrption">Car insurance is a type of motor policy that protect you from financial loss
@@ -250,7 +256,7 @@
         <!-- Car and What is car Insurance End -->
 
         <!-- Key Feature Start -->
-        <section class="key-features pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="key-features pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="key-features-inner">
                 <h2 class="title text-center mb-3">Key Features of Car Insurance Policy</h2>
                 <h4 class="subtitle text-center">The following are the salient features of a car insurance policy.</h4>
@@ -296,7 +302,7 @@
         <!-- Key Feature End -->
 
         <!-- Need Insurance Start -->
-        <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="need-insurance">
                 <h2 class="title text-center mb-3">Why do you need Car Insurance?</h2>
                 <h4 class="subtitle text-center mb-3 mb-lg-5">Car insurance provides several benefits to policyholders.
@@ -374,9 +380,8 @@
         </section>
         <!-- Need Insurance End -->
 
-
         <!-- Difference Btw TR,OD & CC Start -->
-        <section class="diff-btw pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="diff-btw pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="diff-btw-inner">
                 <h2 class="title text-center mb-3">Difference Between Third Party, Own Damages, and Comprehensive Car
                     Insurance</h2>
@@ -464,9 +469,8 @@
         </section>
         <!-- Difference Btw TR,OD & CC End -->
 
-
         <!-- Addon covers Start -->
-        <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <h2 class="title text-center mb-3">What are the add-on covers in Car Insurance policy?</h2>
             <h4 class="subtitle text-center">Add-on covers are extra benefits that you can add to your car or
                 four-wheeler insurance policy to increase your protection. You can buy it with a comprehensive car
@@ -557,9 +561,8 @@
         </section>
         <!-- Addon covers End -->
 
-
         <!-- Premium Calculated Start -->
-        <section class="premium-cal pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="premium-cal pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="premium-cal-inner">
                 <h2 class="title text-center mb-3">How Is Car Insurance Premium Calculated?</h2>
                 <h4 class="subtitle text-center">The premium of third-party car insurance plans is regulated by IRDAI,
@@ -604,9 +607,8 @@
         </section>
         <!-- Premium Calculated End -->
 
-
         <!-- Reduce Insurance Start -->
-        <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="need-insurance">
                 <h2 class="title text-center mb-3">How to Reduce Car Insurance Premium?</h2>
                 <h4 class="subtitle text-center mb-5">While car insurance provides financial protection against
@@ -703,7 +705,7 @@
         <!-- Reduce Insurance End -->
 
         <!-- Factor to Consider Start -->
-        <section class="factor-to-consdier pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="factor-to-consdier pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="factor-to-consdier-inner">
                 <h2 class="title text-center mb-3">Factors to Consider While Selecting Car Insurance Policy</h2>
                 <h4 class="subtitle text-center">Generally, buying car insurance requires a lot of time to do research.
@@ -787,7 +789,7 @@
         <!-- Factor to Consider End -->
 
         <!-- Renew insurance Start -->
-        <section class="renew-insurance pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="renew-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="renew-insurance-inner">
                 <h2 class="title text-center mb-3">How To Renew Expired Car Insurance Online?</h2>
                 <h4 class="subtitle text-center">Renewing expired car insurance online in India has become a convenient
@@ -907,7 +909,7 @@
         <!-- Renew insurance End -->
 
         <!-- Addon covers Start -->
-        <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <h2 class="title text-center mb-3">Car Insurance Terms You Need to Know About</h2>
             <h4 class="subtitle text-center">Understanding the nuances of car insurance is vital for any vehicle owner
                 to ensure they have the right coverage and make informed decisions. Here’s a more detailed explanation
@@ -999,7 +1001,7 @@
         <!-- Addon covers End -->
 
         <!-- FAQ Start -->
-        <section class="faq pt-5 pb-5 px-3 px-md-4 px-lg-0">
+        <section class="faq pt-5 pb-5 px-3 px-md-4 px-lg-3">
             <div class="faq-inner">
                 <h2 class="title text-center mb-3">Car Insurance FAQs</h2>
                 <div class="container  mt-3 mt-lg-5">
@@ -1015,13 +1017,13 @@
                             <div class="accordion mt-lg-2" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             What is third party insurance?
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Third-party insurance is a type of liability insurance that a car owner buys
@@ -1033,13 +1035,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             Is it mandatory to buy car insurance in India?
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1054,14 +1056,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             Which is the best car insurance company in India 2023?
                                         </button>
                                     </h2>
-                                    <div id="collapseThree"
-                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1080,14 +1081,13 @@
                             <div class="accordion mt-lg-2" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             Which is the best car insurance company in India 2023?
                                         </button>
                                     </h2>
-                                    <div id="collapseThree"
-                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1102,13 +1102,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             What is third party insurance?
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Third-party insurance is a type of liability insurance that a car owner buys
@@ -1120,13 +1120,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             Is it mandatory to buy car insurance in India?
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1145,14 +1145,13 @@
                             <div class="accordion mt-lg-2" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             Which is the best car insurance company in India 2023?
                                         </button>
                                     </h2>
-                                    <div id="collapseThree"
-                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1167,13 +1166,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             Is it mandatory to buy car insurance in India?
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1188,13 +1187,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             What is third party insurance?
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Third-party insurance is a type of liability insurance that a car owner buys
@@ -1210,14 +1209,13 @@
                             <div class="accordion mt-lg-2" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             Which is the best car insurance company in India 2023?
                                         </button>
                                     </h2>
-                                    <div id="collapseThree"
-                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1232,13 +1230,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             What is third party insurance?
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Third-party insurance is a type of liability insurance that a car owner buys
@@ -1250,13 +1248,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             Is it mandatory to buy car insurance in India?
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1275,13 +1273,13 @@
                             <div class="accordion mt-lg-2" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             Is it mandatory to buy car insurance in India?
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1296,13 +1294,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             What is third party insurance?
                                         </button>
                                     </h2>
-                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Third-party insurance is a type of liability insurance that a car owner buys
@@ -1314,14 +1312,13 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button shadow-none" type="button"
+                                        <button class="accordion-button collapsed shadow-none" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             Which is the best car insurance company in India 2023?
                                         </button>
                                     </h2>
-                                    <div id="collapseThree"
-                                        class="accordion-collapse border-0 shadow-none collapse show"
+                                    <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <strong>This is the first item's accordion body.</strong> It is shown by
@@ -1344,8 +1341,8 @@
 
 
         <!-- Modal -->
-        <div class="modal fade modal-dialog modal-dialog-centered position-fixed d-none" id="exampleModal" tabindex="-1"
-            aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade position-fixed" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content bg-transparent shadow-none border-0">
                     <div class="modal-header border-0">
@@ -1364,9 +1361,9 @@
     </main>
 
     <footer>
-        <div class="container-fluid footer">
+        <div class="container-fluid footer px-3 px-md-4 px-lg-3">
             <div
-                class="footer-inner d-flex flex-lg-row flex-column justify-content-lg-between px-4 px-lg-0 align-items-center h-100">
+                class="footer-inner d-flex flex-lg-row flex-column justify-content-lg-between align-items-center h-100">
                 <p><span>Category:</span> Composite Broker</p>
                 <p><span>CIN No.</span> U67200MH2003PTC141621</p>
                 <p><span>IRDAI Registration No.</span> 217</p>
@@ -1377,32 +1374,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script>
-        // document.addEventListener('DOMContentLoaded', function () {
-        //     var splide = new Splide('#heroSlider', {
-        //         type: "loop",
-        //         perPage: 1,
-        //         perMove: 1,
-        //         arrows: false,
-        //         drag: true,
-        //         height: "495px",
-        //         autoplay: true,
-        //         interval: 3000,
-        //         pagination: true,
-        //         direction: "ttb",
-        //     });
-        //     splide.mount();
-        // });
-        // new Splide('#slider1').mount();
-
-        // new Splide('#slider2').mount();
-
-        // new Splide('#slider3').mount();
-
-        // var elms = document.getElementsByClassName('splide');
-
-        // for (var i = 0; i < elms.length; i++) {
-        //     new Splide(elms[i]).mount();
-        // }
 
         const tabs = document.querySelectorAll('.navtab');
         const contents = document.querySelectorAll('.content');
@@ -1427,50 +1398,6 @@
             });
         });
         updateUnderline();
-
-        // var deviceWidth = $(window).width();
-        // if ($("#heroSlider").length > 0) {
-        //     if (deviceWidth <= 767) {
-        //         new Splide("#heroSlider", {
-        //             type: "loop",
-        //             perPage: 1,
-        //             perMove: 1,
-        //             arrows: false,
-        //             drag: true,
-        //             height: "244px",
-        //             autoplay: true,
-        //             interval: 3000,
-        //             pagination: true,
-        //             direction: "ttb",
-        //         }).mount();
-        //     } else if (deviceWidth >= 768 && deviceWidth <= 1199) {
-        //         new Splide("#heroSlider", {
-        //             type: "loop",
-        //             perPage: 1,
-        //             perMove: 1,
-        //             arrows: false,
-        //             drag: true,
-        //             height: "188px",
-        //             autoplay: true,
-        //             interval: 3000,
-        //             pagination: true,
-        //             direction: "ttb",
-        //         }).mount();
-        //     } else {
-        //         new Splide("#heroSlider", {
-        //             type: "loop",
-        //             perPage: 1,
-        //             perMove: 1,
-        //             arrows: false,
-        //             drag: true,
-        //             height: "354px",
-        //             autoplay: true,
-        //             interval: 3000,
-        //             pagination: true,
-        //             direction: "ttb",
-        //         }).mount();
-        //     }
-        // }
     </script>
 
 </body>

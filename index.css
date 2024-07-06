@@ -2,6 +2,7 @@
 *,
 *::before,
 *::after {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -33,6 +34,7 @@ body {
 }
 
 a:not([class]) {
+    -webkit-text-decoration-skip: ink;
     text-decoration-skip-ink: auto;
 }
 
@@ -51,8 +53,12 @@ svg {
     *,
     *::before,
     *::after {
+        -webkit-animation-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
+        -webkit-animation-iteration-count: 1 !important;
         animation-iteration-count: 1 !important;
+        -webkit-transition-duration: 0.01ms !important;
+        -o-transition-duration: 0.01ms !important;
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
@@ -90,6 +96,7 @@ p {
 
 .video-pop {
     background: #FFFFFF 0% 0%;
+    -webkit-box-shadow: 0px 0px 12px #00000029;
     box-shadow: 0px 0px 12px #00000029;
     width: 290px;
     right: 10px;
@@ -113,6 +120,16 @@ p {
 /* Video End */
 
 /* Hero Section Start */
+
+.left-section {
+    width: 496px;
+}   
+
+.right-section {
+    width: 656px;
+    padding-top: 25px;
+    margin-left: 45px;
+}
 
 .hero-section-outer-cover {
     height: 495px;
@@ -198,6 +215,7 @@ p {
     margin-top: 30px;
     font: normal normal normal 13px/16px Inter;
     color: #333333;
+    position: relative;
 }
 
 .custom-wrap .inputFieldCust input,
@@ -207,6 +225,19 @@ select {
     border: 1px solid #D2D3D4;
     border-radius: 4px;
     padding-left: 13px;
+}
+
+.custom-wrap select {
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    padding: 2px 50px 2px 2px;
+    background-image: url("https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-left: 10px;
+    font: normal normal normal 13px/16px Inter;
+    color: #333333;
+    background-position-x: 280px;
 }
 
 .custom-wrap .inputFieldCust .common-feild:focus {
@@ -221,6 +252,29 @@ select {
     width: 0px;
 }
 
+.tobacoLabel {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 13%;
+    bottom: 44px;
+    font-family: Inter;
+    font-size: 11px;
+    color: #939499;
+}
+
+.label {
+    font: normal normal normal 10px/14px Inter;
+    color: #939499;
+}
+
 .custom-wrap .radiocustom {
     width: 158px;
     height: 43px;
@@ -230,11 +284,16 @@ select {
 .smokeNo,
 .gendmale {
     border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
 }
 
 .smokeYes,
 .gendfemale {
     border-radius: 0px 4px 4px 0px;
+}
+
+.checked {
+    background-color: #c6f3ff;
 }
 
 form button {
@@ -256,6 +315,57 @@ form button span {
     text-align: center;
     font: normal normal normal 12px/17px Inter-Regular;
     color: #808080;
+}
+
+.privacy-policy a {
+    color: #107591;
+}
+
+.check-box {
+    top: 3px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 16px;
+    background: #dddddd;
+    border: 1px solid #00000000;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+input:checked[type="checkbox"] {
+    background: #107591;
+}
+
+input[type="checkbox"]::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    top: 0.5px;
+    left: 0;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+input:checked[type="checkbox"]::after {
+    left: 55%;
 }
 
 /* Hero Section End */
@@ -384,8 +494,11 @@ form button span {
 }
 
 .need-insurance .need-insurance-card {
+    -ms-grid-columns: 1fr 72px 1fr;
     grid-template-columns: 1fr 1fr;
     row-gap: 68px;
+    -webkit-column-gap: 72px;
+    -moz-column-gap: 72px;
     column-gap: 72px;
     color: #080808;
     opacity: 1;
@@ -540,8 +653,14 @@ form button span {
     border-radius: 12px 12px 0px 0px;
     border: 0.5px solid #838383;
     color: #838383;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
 }
@@ -601,14 +720,15 @@ form button span {
     border-top: 0px solid #838383;
 }
 
+
 .accordion-button::after {
     background-image: url('./assets/plus-icon.svg') !important;
 }
 
+
 .accordion-button:not(.collapsed)::after {
     background-image: url('./assets/minus-icon.svg') !important;
 }
-
 
 /* FAQ End */
 
@@ -641,6 +761,8 @@ form button span {
     width: 100%;
     top: 70%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     overflow: hidden;
 }
@@ -657,9 +779,28 @@ iframe {
 /* Modal Css End */
 
 
+/* latop Responsive Start */
+
+@media (min-width: 1229px) {
+    .container {
+        max-width: 1224px;
+    }
+}
+
+/* latop Responsive End */
+
 /* Tablet Responsive Start */
 
-@media only screen and (min-width:768px) and (max-width:1229px) {
+@media only screen and (min-width:992px) and (max-width:1229px) {
+    .container{
+        max-width: 768px;
+    }
+    .hero-section-inner{
+        padding-top: 10px !important;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1229px) {
 
     .factor-to-consdier .card,
     .renew-insurance-inner .card {
@@ -667,8 +808,75 @@ iframe {
         margin: 0px auto;
     }
 
-    .hero-section {
-        display: none;
+    .navbar-dark .navbar-toggler-icon {
+        mix-blend-mode: exclusion;
+    }
+
+    .left-section, .right-section{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .hero-section-outer-cover {
+        height: 200px;
+        width: 100%;
+        padding: 0 3px 8px 8px;
+        border-radius: 41px 108px 78px 0;
+        margin-top: 12px;
+        margin-right: 0;
+    }
+
+    .hero-section-inner {
+        width: 100%;
+        height: 188px;
+        padding: 27px 0px 0px 15px;
+        border-radius: 41px 106px 74px 0;
+    }
+
+    .hero-section-inner .title {
+        font: normal normal 600 16px/20px Work Sans;
+        max-width: 350px;
+    }
+
+    .hero-section-inner .question-title {
+        font: normal normal normal 12px/18px Inter;
+    }
+
+    .hero-section-inner ul li {
+        font: normal normal normal 12px/20px Inter;
+        width: 210px;
+    }
+
+    .hero-section-inner .hero-img {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+    }
+
+    .list-unstyled {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-section-inner .hero-img img {
+        width: 30%;
+    }
+
+    .hero-section-inner ul li::before {
+        width: 6px;
+        height: 6px;
+        top: 8px;
+        left: -9px;
+    }
+
+    .custom-wrap select {
+        background-position-x: 280px;
     }
 }
 
@@ -681,6 +889,16 @@ iframe {
     .navbar .navbar-brand img {
         width: 121px;
     }
+
+    .left-section, .right-section{
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .right-section{
+        padding: 0px;
+    }
+
 
     .hero-section-outer-cover {
         height: 252px;
@@ -714,7 +932,11 @@ iframe {
 
     .hero-section-inner .hero-img {
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: end;
     }
 
@@ -734,7 +956,12 @@ iframe {
     }
 
     .custom-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
         align-items: center !important;
     }
 
@@ -805,6 +1032,7 @@ iframe {
     }
 
     .need-insurance .need-insurance-card {
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         row-gap: 22px;
     }
@@ -850,13 +1078,26 @@ iframe {
     }
 
     .footer-inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
         align-items: start !important;
     }
 
     .faq .navtabs .navtab,
     .faq .navtabs .navtab.active {
         font: normal normal 600 12px/24px Inter;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        mix-blend-mode: exclusion;
+    }
+
+    .custom-wrap select {
+        background-position-x: 310px;
     }
 }
 
