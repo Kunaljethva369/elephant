@@ -566,6 +566,7 @@ input:checked[type="checkbox"]::after {
 .premium-cal .subtitle,
 .premium-cal-inner .card .subtitle,
 .factor-to-consdier .subtitle,
+.file-insurance .subtitle,
 .renew-insurance .subtitle {
     font: normal normal normal 16px/26px Inter;
     color: #080808;
@@ -705,6 +706,25 @@ input:checked[type="checkbox"]::after {
 
 /* Facotr to consider End */
 
+
+/* File a car Insurance Start */
+
+.file-insurance h4 {
+    background-color: #C6F3FF;
+    font: normal normal 600 16px/26px Inter;
+    padding: 6px 20px;
+    color: #080808;
+}
+
+.file-insurance .title {
+    font: normal normal 600 20px/26px Inter;
+}
+
+.need-insurance .addon-covers ol li::marker {
+    font: normal normal normal 16px/26px Inter;
+}
+
+/* File a car Insurance End */
 
 /* Renew insurance Start */
 
@@ -1182,6 +1202,7 @@ iframe {
     .factor-to-consdier .card {
         padding: 16px;
         width: 343px;
+        margin: 0px auto;
     }
 
     .factor-to-consdier .card .header-question span,
@@ -1221,6 +1242,10 @@ iframe {
 
     .custom-wrap select {
         background-position-x: 310px;
+    }
+
+    .file-insurance .title {
+        font: normal normal 600 16px/24px Inter;
     }
 }
 
