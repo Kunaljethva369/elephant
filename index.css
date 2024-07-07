@@ -334,6 +334,7 @@ select {
     font: normal normal normal 13px/16px Inter;
     color: #333333;
     background-position-x: 280px;
+    background-color: transparent;
 }
 
 .custom-wrap .inputFieldCust .common-feild:focus {
@@ -790,6 +791,7 @@ input:checked[type="checkbox"]::after {
     -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
+    font: normal normal 600 16px / 26px Inter;
 }
 
 .faq .navtabs .navtab.active {
@@ -878,6 +880,13 @@ input:checked[type="checkbox"]::after {
 
 .footer p {
     font: normal normal normal 12px/24px Inter;
+}
+
+footer .disclamer {
+    max-width: 1074px;
+    margin: 0px auto;
+    font: normal normal normal 12px/20px Inter;
+    color: #080808;
 }
 
 /* Footer End */
