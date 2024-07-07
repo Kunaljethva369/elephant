@@ -25,6 +25,7 @@ html,
 body {
     height: 100%;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -37,6 +38,7 @@ a:not([class]) {
     -webkit-text-decoration-skip: ink;
     text-decoration-skip-ink: auto;
 }
+
 
 img,
 picture,
@@ -71,6 +73,10 @@ p {
 /* CSS Reset END */
 
 
+.pt-5 {
+    padding-top: 72px !important;
+}
+
 /* Navbar START */
 
 .talk-to-expert {
@@ -91,6 +97,97 @@ p {
 }
 
 /* Navbar End */
+
+/* Bookmark Start */
+
+.bookmark {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    -webkit-box-shadow: 0px 0px 10px #00000029;
+    box-shadow: 0px 0px 10px #00000029;
+    z-index: 9;
+    top: 0px;
+    height: 60px;
+    display: none;
+}
+
+.bookmark ul li a {
+    font: normal normal normal 14px/26px Inter;
+    letter-spacing: 0px;
+    color: #080808;
+}
+
+.bookmarks-wrapper {
+    max-width: 1050px;
+    margin: 0px auto;
+}
+
+.bookmark ul li a.active {
+    color: #19C2F2;
+    border-bottom: 2px solid #19c2f2;
+}
+
+.bookmarks-list {
+    overflow-y: scroll;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    border: none;
+    padding: 0px 10px;
+}
+
+.bookmark.active {
+    display: block;
+    -webkit-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
+    transition: 5s ease-in-out;
+}
+
+.bookmarks-left,
+.bookmarks-right {
+    cursor: pointer;
+}
+
+.slideDown {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+    display: block;
+}
+
+@keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/* Bookmark End */
 
 /* Video Start */
 
@@ -123,7 +220,7 @@ p {
 
 .left-section {
     width: 496px;
-}   
+}
 
 .right-section {
     width: 656px;
@@ -139,7 +236,6 @@ p {
     border-radius: 190px 275px 200px 0;
     margin-top: 8px;
     margin-right: 23px;
-    /* overflow: hidden; */
     position: relative;
 }
 
@@ -311,6 +407,17 @@ form button span {
     text-transform: uppercase;
 }
 
+
+form .error {
+    position: absolute;
+    width: 100%;
+    bottom: -17px;
+    left: 0px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
 .privacy-policy {
     text-align: center;
     font: normal normal normal 12px/17px Inter-Regular;
@@ -375,7 +482,7 @@ input:checked[type="checkbox"]::after {
 .our-insurance {
     background-color: #EFFBFF;
     text-align: center;
-    padding-bottom: 51px;
+    padding: 51px 0px;
 }
 
 .our-insurance .title {
@@ -756,6 +863,7 @@ input:checked[type="checkbox"]::after {
 /* Footer End */
 
 /* Modal Css Start */
+
 .modal {
     max-width: 500px;
     width: 100%;
@@ -779,7 +887,7 @@ iframe {
 /* Modal Css End */
 
 
-/* latop Responsive Start */
+/* laptop Responsive Start */
 
 @media (min-width: 1229px) {
     .container {
@@ -787,15 +895,16 @@ iframe {
     }
 }
 
-/* latop Responsive End */
+/* laptop Responsive End */
 
 /* Tablet Responsive Start */
 
 @media only screen and (min-width:992px) and (max-width:1229px) {
-    .container{
+    .container {
         max-width: 768px;
     }
-    .hero-section-inner{
+
+    .hero-section-inner {
         padding-top: 10px !important;
     }
 }
@@ -812,7 +921,8 @@ iframe {
         mix-blend-mode: exclusion;
     }
 
-    .left-section, .right-section{
+    .left-section,
+    .right-section {
         width: 100%;
         margin-left: 0px;
     }
@@ -864,6 +974,10 @@ iframe {
         grid-template-columns: 1fr 1fr;
     }
 
+    .bookmark ul li {
+        padding: 5px;
+    }
+
     .hero-section-inner .hero-img img {
         width: 30%;
     }
@@ -883,19 +997,28 @@ iframe {
 /* Tablet Responsive End */
 
 /* Mobile Responsive Start */
-
 @media only screen and (max-width:767px) {
 
     .navbar .navbar-brand img {
         width: 121px;
     }
 
-    .left-section, .right-section{
+    .bookmarks-wrapper {
+        max-width: 320px;
+    }
+
+    .bookmark ul li a {
+        padding: 4px;
+        font-size: 11px;
+    }
+
+    .left-section,
+    .right-section {
         margin: 0px auto;
         width: 100%;
     }
 
-    .right-section{
+    .right-section {
         padding: 0px;
     }
 
