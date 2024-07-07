@@ -1,4 +1,3 @@
-
 // FQA Tab Switch Logic Start
 const tabs = document.querySelectorAll('.navtab');
 const contents = document.querySelectorAll('.content');
