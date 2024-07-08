@@ -967,6 +967,10 @@ iframe {
         mix-blend-mode: exclusion;
     }
 
+    .hero-section{
+        flex-direction: column;
+    }
+
     .left-section,
     .right-section {
         width: 100%;
@@ -990,17 +994,18 @@ iframe {
     }
 
     .hero-section-inner .title {
-        font: normal normal 600 16px/20px Work Sans;
-        max-width: 350px;
+        font: normal normal 600 20px/26px Work Sans;
+        max-width: 400px;
     }
-
+    
+    
     .hero-section-inner .question-title {
-        font: normal normal normal 12px/18px Inter;
+        max-width: 400px;
+        font: normal normal normal 14px/20px Inter;
     }
 
     .hero-section-inner ul li {
-        font: normal normal normal 12px/20px Inter;
-        width: 210px;
+        font: normal normal normal 14px/20px Inter;
     }
 
     .hero-section-inner .hero-img {
@@ -1013,10 +1018,8 @@ iframe {
         justify-content: end;
     }
 
-    .list-unstyled {
-        display: -ms-grid;
+    .hero-section-inner .first-car{
         display: grid;
-        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -1024,8 +1027,20 @@ iframe {
         padding: 5px;
     }
 
+    .hero-img{
+        padding-right: 33px;
+    }
+
+    .blog-slider__pagination{
+        transform: translate(39%, -294%);
+    }
+
     .hero-section-inner .hero-img img {
-        width: 30%;
+        width: 170px;
+    }
+
+    .hero-section-inner ul{
+        width: 100%;   
     }
 
     .hero-section-inner ul li::before {
@@ -1038,6 +1053,7 @@ iframe {
     .custom-wrap select {
         background-position-x: 280px;
     }
+
 }
 
 /* Tablet Responsive End */
@@ -1052,6 +1068,10 @@ iframe {
     .bookmark ul li a {
         padding: 4px;
         font-size: 11px;
+    }
+
+    .hero-section{
+        flex-direction: column;
     }
 
     .left-section,
@@ -1150,7 +1170,7 @@ iframe {
     }
 
     form button {
-        width: 344px;
+        width: 100%;
     }
 
     .car-insurance .title {
