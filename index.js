@@ -168,18 +168,26 @@ document.addEventListener('DOMContentLoaded',() => {
 });
 
 // Form Validation Logic Start
-function submitForm(event) {
-    event.preventDefault();
+function validateEmail() {
     var emailInput = document.getElementById('personal-email');
     var email = emailInput.value.trim();
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(email)) {
         document.querySelector(".error").style.display = 'block';
-        emailInput.focus();
         return false;
     } else {
         document.querySelector(".error").style.display = 'none';
+        return true;
     }
 }
+
+function submitForm(event) {
+    event.preventDefault();
+    if (validateEmail()) {
+        alert("Form submitted!");
+    }
+}
+document.getElementById('personal-email').addEventListener('change',validateEmail);
+document.getElementById('emailForm').addEventListener('submit',submitForm);
 // Form Validation Logic End
