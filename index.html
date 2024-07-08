@@ -1,339 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Car Insurance</title>
-    <link rel="icon" href="./assets/favicon.png" type="image/png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Insurance</title>
+        <link rel="icon" href="./assets/favicon.png" type="image/png"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
-    <link rel="stylesheet" href="./index.css">
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+        <link rel="stylesheet" href="./index.css">
+    </head>
 
-<body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/logo.svg" alt="company-logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    <body>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo.svg" alt="company-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <button class="talk-to-expert d-flex align-items-center justify-content-center gap-1 rounded-3 ">
-                    <img src="./assets/phone-icon.svg" alt="phone-icon">
-                    <p>Talk to Expert</p>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <button class="talk-to-expert d-flex align-items-center justify-content-center gap-1 rounded-3 ">
+                        <img src="./assets/phone-icon.svg" alt="phone-icon">
+                        <p>Talk to Expert</p>
+                    </button>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+        </nav>
+        <!-- Navbar End -->
 
-    <main>
+        <main>
 
-        <!-- Bookmark Navbar Start -->
+            <!-- Bookmark Navbar Start -->
 
-        <div class="bookmark position-fixed w-100" id="bookmark">
-            <div class="bookmarks-wrapper d-flex h-100 align-items-center">
-                <span class="bookmarks-left mx-lg-4 mx-1" style="display: none;"><img
+            <div class="bookmark position-fixed w-100" id="bookmark">
+                <div class="bookmarks-wrapper d-flex h-100 align-items-center">
+                    <span class="bookmarks-left mx-lg-4 mx-1" style="display: none;"><img
                         src="./assets/bookmark-left-arrow.svg" alt="bookmarkLeftarrow"></span>
-                <ul class="bookmarks-list gap-0 gap-lg-4 mb-0">
-                    <li class="list-unstyled"><a href="#section1" data-index="1" class="text-decoration-none active">Why
-                            do you need car insurance</a></li>
-                    <li class="list-unstyled"><a href="#section2" data-index="2"
-                            class="text-decoration-none">Differences between types of car insurance policies</a></li>
-                    <li class="list-unstyled"><a href="#section3" data-index="3" class="text-decoration-none">Add-on
-                            covers</a></li>
-                    <li class="list-unstyled"><a href="#section4" data-index="4" class="text-decoration-none">Car
-                            insurance premium</a></li>
-                    <li class="list-unstyled"><a href="#section5" data-index="5" class="text-decoration-none">How to
-                            reduce car insurance premium</a></li>
-                    <li class="list-unstyled"><a href="#section6" data-index="6" class="text-decoration-none">Factors to
-                            Consider</a></li>
-                    <li class="list-unstyled"><a href="#section7" data-index="7" class="text-decoration-none">File a
-                            Insurance</a></li>
-                    <li class="list-unstyled"><a href="#section8" data-index="8" class="text-decoration-none">Renew
-                            Insurance</a></li>
-                    <li class="list-unstyled"><a href="#section9" data-index="9" class="text-decoration-none">Terms Need
-                            to Know</a></li>
-                    <li class="list-unstyled"><a href="#section10" data-index="10" class="text-decoration-none">FAQ</a>
-                    </li>
-                </ul>
-                <span class="bookmarks-right mx-lg-4 mx-1" style="display: flex;"><img
+                    <ul class="bookmarks-list gap-0 gap-lg-4 mb-0">
+                        <li class="list-unstyled">
+                            <a href="#section1" data-index="1" class="text-decoration-none active">Why
+                            do you need car insurance</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section2" data-index="2"
+                            class="text-decoration-none">Differences between types of car insurance policies</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section3" data-index="3" class="text-decoration-none">Add-on
+                            covers</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section4" data-index="4" class="text-decoration-none">Car
+                            insurance premium</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section5" data-index="5" class="text-decoration-none">How to
+                            reduce car insurance premium</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section6" data-index="6" class="text-decoration-none">Factors to
+                            Consider</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section7" data-index="7" class="text-decoration-none">File a
+                            Insurance</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section8" data-index="8" class="text-decoration-none">Renew
+                            Insurance</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section9" data-index="9" class="text-decoration-none">Terms Need
+                            to Know</a>
+                        </li>
+                        <li class="list-unstyled">
+                            <a href="#section10" data-index="10" class="text-decoration-none">FAQ</a>
+                        </li>
+                    </ul>
+                    <span class="bookmarks-right mx-lg-4 mx-1" style="display: flex;"><img
                         src="./assets/bookmark-right-arrow.svg" alt="bookmarkrightarrow"></span>
+                </div>
             </div>
-        </div>
 
-        <!-- Bookmark Navbar End -->
+            <!-- Bookmark Navbar End -->
 
-        <!-- Video Start -->
-        <div class="video-pop d-lg-flex align-items-center gap-2 position-fixed bottom-0 mb-2 p-2 rounded-3 d-md-flex d-none"
+            <!-- Video Start -->
+            <div class="video-pop d-lg-flex align-items-center gap-2 position-fixed bottom-0 mb-2 p-2 rounded-3 d-md-flex d-none"
             type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="./assets/youtube-girl.png" class="girl-img" alt="play-icon">
-            <p>Laxmi revealing the exclusive deal on Term Life insurance</p>
-            <img src='./assets/play-icon.svg' class="play-icon" alt="play-icon">
-        </div>
-        <!-- Video End -->
+                <img src="./assets/youtube-girl.png" class="girl-img" alt="play-icon">
+                <p>Laxmi revealing the exclusive deal on Term Life insurance</p>
+                <img src='./assets/play-icon.svg' class="play-icon" alt="play-icon">
+            </div>
+            <!-- Video End -->
 
-        <!-- Hero Section Start -->
-        <section class="container hero-section d-flex">
-            <div class="left-section">
-                <div class="blog-slider position-relative">
-                    <div class="blog-slider__wrp swiper-wrapper">
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="hero-section-outer-cover position-relative">
-                                <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
+            <!-- Hero Section Start -->
+            <section class="container hero-section d-flex">
+                <div class="left-section">
+                    <div class="blog-slider position-relative">
+                        <div class="blog-slider__wrp swiper-wrapper">
+                            <div class="blog-slider__item swiper-slide">
+                                <div class="hero-section-outer-cover position-relative">
+                                    <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
                                     type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
-                                </div>
-                                <div class="hero-section-inner">
-                                    <h2 class="title">Exclusive Individual Term Life Insurance Plans for
+                                        <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+                                    </div>
+                                    <div class="hero-section-inner">
+                                        <h2 class="title">Exclusive Individual Term Life Insurance Plans for
                                         <span class="spc">
                                             corporate employee
                                         </span>
-                                    </h2>
-                                    <p class="question-title mt-1 mt-lg-4">What does your term life insurance cover you
+                                        </h2>
+                                        <p class="question-title mt-1 mt-lg-4">What does your term life insurance cover you
                                         for?</p>
-                                    <ul class="list-unstyled px-2 first-car">
-                                        <li class="position-relative mt-1 mt-lg-2">Death benefit</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Critical illnesses benefit</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Accidental death benefit</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Waiver of premium</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Income tax benefits</li>
-                                        <li class="position-relative mt-1 mt-lg-2">And much more…</li>
-                                    </ul>
-                                    <div class="hero-img">
-                                        <img src="./assets/carousel-first.png" alt="first-carousel">
+                                        <ul class="list-unstyled px-2 first-car">
+                                            <li class="position-relative mt-1 mt-lg-2">Death benefit</li>
+                                            <li class="position-relative mt-1 mt-lg-2">Critical illnesses benefit</li>
+                                            <li class="position-relative mt-1 mt-lg-2">Accidental death benefit</li>
+                                            <li class="position-relative mt-1 mt-lg-2">Waiver of premium</li>
+                                            <li class="position-relative mt-1 mt-lg-2">Income tax benefits</li>
+                                            <li class="position-relative mt-1 mt-lg-2">And much more…</li>
+                                        </ul>
+                                        <div class="hero-img">
+                                            <img src="./assets/carousel-first.png" alt="first-carousel">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="hero-section-outer-cover position-relative">
-                                <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
+                            <div class="blog-slider__item swiper-slide">
+                                <div class="hero-section-outer-cover position-relative">
+                                    <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
                                     type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
-                                </div>
-                                <div class="hero-section-inner">
-                                    <h2 class="title">Use your
+                                        <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+                                    </div>
+                                    <div class="hero-section-inner">
+                                        <h2 class="title">Use your
                                         <span class="spc">
                                             work email id
                                         </span>
                                         and avail exclusive features on your Term Life Insurance
                                     </h2>
-                                    <ul class="list-unstyled px-2 pt-lg-2">
-                                        <li class="position-relative mt-1 mt-lg-2">Paperless documentation</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Hassle-free KYC underwriting</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Stress-free medical underwriting</li>
-                                    </ul>
-                                    <div class="hero-img">
-                                        <img src="./assets/carousel-second.png" alt="second-carousel">
+                                        <ul class="list-unstyled px-2 pt-lg-2">
+                                            <li class="position-relative mt-1 mt-lg-2">Paperless documentation</li>
+                                            <li class="position-relative mt-1 mt-lg-2">Hassle-free KYC underwriting</li>
+                                            <li class="position-relative mt-1 mt-lg-2">Stress-free medical underwriting</li>
+                                        </ul>
+                                        <div class="hero-img">
+                                            <img src="./assets/carousel-second.png" alt="second-carousel">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="hero-section-outer-cover position-relative">
-                                <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
+                            <div class="blog-slider__item swiper-slide">
+                                <div class="hero-section-outer-cover position-relative">
+                                    <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
                                     type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
-                                </div>
-                                <div class="hero-section-inner">
-                                    <h2 class="title">Exclusive
+                                        <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+                                    </div>
+                                    <div class="hero-section-inner">
+                                        <h2 class="title">Exclusive
                                         <span class="spc">
                                             Elephant.in
                                         </span>
                                         benefits you cannot miss
                                     </h2>
-                                    <ul class="list-unstyled px-2 pt-lg-2">
-                                        <li class="position-relative mt-1 mt-lg-2">Laxmi - AI powered recommendation
+                                        <ul class="list-unstyled px-2 pt-lg-2">
+                                            <li class="position-relative mt-1 mt-lg-2">Laxmi - AI powered recommendation
                                             feature</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Expert Advisory at the click of
+                                            <li class="position-relative mt-1 mt-lg-2">Expert Advisory at the click of
                                             button</li>
-                                        <li class="position-relative mt-1 mt-lg-2">Dedicated Claim Advisor</li>
-                                    </ul>
-                                    <div class="hero-img">
-                                        <img src="./assets/carousel-third.png" alt="first-carousel">
+                                            <li class="position-relative mt-1 mt-lg-2">Dedicated Claim Advisor</li>
+                                        </ul>
+                                        <div class="hero-img">
+                                            <img src="./assets/carousel-third.png" alt="first-carousel">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="blog-slider__pagination"></div>
                     </div>
-                    <div class="blog-slider__pagination"></div>
                 </div>
-            </div>
-            <div class="right-section">
-                <h4 class="form-title">Comapre & Buy Term Life Insurance</h4>
-                <div class="form">
-                    <form onsubmit="submitForm(event)">
-                        <div class="custom-wrap mt-0 d-flex align-items-end justify-content-center">
-                            <div class="email-feild inputFieldCust position-relative">
-                                <div class="email-label d-flex mb-2 align-items-center">
-                                    <img src="./assets/gift-icon.svg" alt="gift-icon" class="mx-2">
-                                    <p>Exclusive discounts and corporate offers</p>
+                <div class="right-section">
+                    <h4 class="form-title">Comapre & Buy Term Life Insurance</h4>
+                    <div class="form">
+                        <form onsubmit="submitForm(event)">
+                            <div class="custom-wrap mt-0 d-flex align-items-end justify-content-center">
+                                <div class="email-feild inputFieldCust position-relative">
+                                    <div class="email-label d-flex mb-2 align-items-center">
+                                        <img src="./assets/gift-icon.svg" alt="gift-icon" class="mx-2">
+                                        <p>Exclusive discounts and corporate offers</p>
+                                    </div>
+                                    <input class="common-feild" type="email" placeholder="Work Email ID">
                                 </div>
-                                <input class="common-feild" id="email" type="email" placeholder="Work Email ID">
-                                <span class="error">Please enter valid email id</span>
+                                <div class="inputFieldCust position-relative">
+                                    <input type="text" placeholder="Date of Birth (DD/MM/YYYY)">
+                                </div>
                             </div>
-                            <div class="inputFieldCust position-relative">
-                                <input type="text" placeholder="Date of Birth (DD/MM/YYYY)">
-                            </div>
-                        </div>
-                        <div class="custom-wrap d-flex align-items-end justify-content-center">
-                            <div class="radio-container d-flex">
+                            <div class="custom-wrap d-flex align-items-end justify-content-center">
+                                <div class="radio-container d-flex">
 
-                                <div class="radiocustom smokeNo">
-                                    <label class="d-flex align-items-center justify-content-around h-100 checked">
-                                        <img src="./assets/no-cigi.svg" alt="cigi">
-                                        <span>No</span>
-                                        <input type="radio" name="tabaco">
-                                    </label>
+                                    <div class="radiocustom smokeNo">
+                                        <label class="d-flex align-items-center justify-content-around h-100 checked">
+                                            <img src="./assets/no-cigi.svg" alt="cigi">
+                                            <span>No</span>
+                                            <input type="radio" name="tabaco">
+                                        </label>
+                                    </div>
+                                    <div class="radiocustom smokeYes">
+                                        <label class="d-flex align-items-center justify-content-around h-100">
+                                            <img src="./assets/cigi.svg" alt="cigi">
+                                            <span>Yes</span>
+                                            <input type="radio" name="tabaco">
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="radiocustom smokeYes">
-                                    <label class="d-flex align-items-center justify-content-around h-100">
-                                        <img src="./assets/cigi.svg" alt="cigi">
-                                        <span>Yes</span>
-                                        <input type="radio" name="tabaco">
-                                    </label>
+                                <div class="radio-container d-flex">
+                                    <div class="radiocustom gendmale">
+                                        <label class="d-flex align-items-center justify-content-around h-100">
+                                            <img src="./assets/male-icon.svg" alt="male-icon">
+                                            <span>No</span>
+                                            <input type="radio" name="tabaco">
+                                        </label>
+                                    </div>
+                                    <div class="radiocustom gendfemale">
+                                        <label class="d-flex align-items-center justify-content-around h-100">
+                                            <img src="./assets/female-icon.svg" alt="female-icon">
+                                            <span>Yes</span>
+                                            <input type="radio" name="tabaco">
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="radio-container d-flex">
-                                <div class="radiocustom gendmale">
-                                    <label class="d-flex align-items-center justify-content-around h-100">
-                                        <img src="./assets/male-icon.svg" alt="male-icon">
-                                        <span>No</span>
-                                        <input type="radio" name="tabaco">
-                                    </label>
+                            <div class="custom-wrap d-flex align-items-end justify-content-center">
+                                <div class="email-feild inputFieldCust position-relative">
+                                    <select>
+                                        <option value="0">Select Education</option>
+                                        <option value="1">MSC</option>
+                                        <option value="2">BSC</option>
+                                        <option value="3">12TH</option>
+                                        <option value="4">10TH</option>
+                                    </select>
                                 </div>
-                                <div class="radiocustom gendfemale">
-                                    <label class="d-flex align-items-center justify-content-around h-100">
-                                        <img src="./assets/female-icon.svg" alt="female-icon">
-                                        <span>Yes</span>
-                                        <input type="radio" name="tabaco">
-                                    </label>
+                                <div class="inputFieldCust position-relative">
+                                    <select>
+                                        <option value="0">Select Annual Income</option>
+                                        <option value="1">1 - 5 Lakh</option>
+                                        <option value="2">5 - 10 Lakh</option>
+                                        <option value="3">10 - 15 Lakh</option>
+                                        <option value="4">15Lakh & Above</option>
+                                    </select>
                                 </div>
                             </div>
-                        </div>
-                        <div class="custom-wrap d-flex align-items-end justify-content-center">
-                            <div class="email-feild inputFieldCust position-relative">
-                                <select>
-                                    <option value="0">Select Education</option>
-                                    <option value="1">MSC</option>
-                                    <option value="2">BSC</option>
-                                    <option value="3">12TH</option>
-                                    <option value="4">10TH</option>
-                                </select>
+                            <div class="custom-wrap d-flex align-items-end justify-content-center">
+                                <div class="email-feild inputFieldCust position-relative">
+                                    <input class="common-feild" type="text" placeholder="First Name">
+                                </div>
+                                <div class="inputFieldCust position-relative">
+                                    <input type="name" placeholder="Last Name">
+                                </div>
                             </div>
-                            <div class="inputFieldCust position-relative">
-                                <select>
-                                    <option value="0">Select Annual Income</option>
-                                    <option value="1">1 - 5 Lakh</option>
-                                    <option value="2">5 - 10 Lakh</option>
-                                    <option value="3">10 - 15 Lakh</option>
-                                    <option value="4">15Lakh & Above</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="custom-wrap d-flex align-items-end justify-content-center">
-                            <div class="email-feild inputFieldCust position-relative">
-                                <input class="common-feild" type="text" placeholder="First Name">
-                            </div>
-                            <div class="inputFieldCust position-relative">
-                                <input type="name" placeholder="Last Name">
-                            </div>
-                        </div>
-                        <div class="custom-wrap d-flex align-items-end justify-content-center">
-                            <div class="email-feild inputFieldCust position-relative">
-                                <input class="common-feild" type="email" placeholder="Personal Email ID">
-                                <p class="label mt-lg-1 mx-lg-1">Your quote, policy and all communications will be
+                            <div class="custom-wrap d-flex align-items-end justify-content-center">
+                                <div class="email-feild inputFieldCust position-relative">
+                                    <input class="common-feild" type="email" id="personal-email" placeholder="Personal Email ID">
+                                    <p class="label mt-lg-1 mx-lg-1">Your quote, policy and all communications will be
                                     sent on it</p>
+                                    <span class="error">Please enter valid email id</span>
+                                </div>
+                                <div class="inputFieldCust position-relative">
+                                    <input type="number" placeholder="Mobile Number">
+                                    <p class="label mt-lg-1 mx-lg-1">Mobile No. will be your Customer Login ID</p>
+                                </div>
                             </div>
-                            <div class="inputFieldCust position-relative">
-                                <input type="number" placeholder="Mobile Number">
-                                <p class="label mt-lg-1 mx-lg-1">Mobile No. will be your Customer Login ID</p>
-                            </div>
-                        </div>
-                        <button type="submit"
+                            <button type="submit"
                             class="d-flex align-items-center justify-content-center mt-3 mt-lg-5 gap-2">
-                            <span>VIEW QUOTES</span>
-                            <img src="./assets/left-arrow.svg" alt="left-arrow">
-                        </button>
-                    </form>
-                    <div class="privacy-policy mt-3">
-                        <p>
+                                <span>VIEW QUOTES</span>
+                                <img src="./assets/left-arrow.svg" alt="left-arrow">
+                            </button>
+                        </form>
+                        <div class="privacy-policy mt-3">
+                            <p>
                             Your information stays between us. We never, ever sell your info to third parties - we
                             hate spam, too.
                         <p>
                             By clicking on “View Quotes”, you agree to our
                             <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>
-                        </p>
-                        </p>
-                        <div class="whatsapp d-flex align-items-center justify-content-center gap-2 mt-2 mb-3">
-                            <img src="./assets/whatsapp-icon.svg" alt="whatsapp-icon">
-                            <p>Get updates on WhatsApp</p>
-                            <div class="check-box position-relative">
-                                <input type="checkbox" checked>
+                                </p>
+                            </p>
+                            <div class="whatsapp d-flex align-items-center justify-content-center gap-2 mt-2 mb-3">
+                                <img src="./assets/whatsapp-icon.svg" alt="whatsapp-icon">
+                                <p>Get updates on WhatsApp</p>
+                                <div class="check-box position-relative">
+                                    <input type="checkbox" checked>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Hero Section End -->
+            </section>
+            <!-- Hero Section End -->
 
-        <!-- Our Insurance Start -->
-        <section class="container-fluid our-insurance">
-            <h3 class="title">Our Insurance Partners</h3>
-            <div class="d-flex justify-content-center container-lg container-fluid mt-5">
-                <div class="row justify-content-center gap-3">
-                    <div class="partners d-flex align-items-center justify-content-center col-6">
-                        <img src="./assets/Tataali.png" alt="partners-img">
-                    </div>
-                    <div class="partners d-flex align-items-center justify-content-center col-6">
-                        <img src="./assets/futureGeneral.png" alt="partners-img">
-                    </div>
-                    <div class="partners d-flex align-items-center justify-content-center col-6">
-                        <img src="./assets/digit.png" alt="partners-img">
-                    </div>
-                    <div class="partners d-flex align-items-center justify-content-center col-6">
-                        <img src="./assets/kotak.png" alt="partners-img">
-                    </div>
-                    <div class="partners d-flex align-items-center justify-content-center col-6">
-                        <img src="./assets/zuno.png" alt="partners-img">
-                    </div>
-                    <div class="partners d-flex align-items-center justify-content-center d-none d-lg-block">
-                        <img src="./assets/acko.png" alt="partners-img">
+            <!-- Our Insurance Start -->
+            <section class="container-fluid our-insurance">
+                <h3 class="title">Our Insurance Partners</h3>
+                <div class="d-flex justify-content-center container-lg container-fluid mt-5">
+                    <div class="row justify-content-center gap-3">
+                        <div class="partners d-flex align-items-center justify-content-center col-6">
+                            <img src="./assets/Tataali.png" alt="partners-img">
+                        </div>
+                        <div class="partners d-flex align-items-center justify-content-center col-6">
+                            <img src="./assets/futureGeneral.png" alt="partners-img">
+                        </div>
+                        <div class="partners d-flex align-items-center justify-content-center col-6">
+                            <img src="./assets/digit.png" alt="partners-img">
+                        </div>
+                        <div class="partners d-flex align-items-center justify-content-center col-6">
+                            <img src="./assets/kotak.png" alt="partners-img">
+                        </div>
+                        <div class="partners d-flex align-items-center justify-content-center col-6">
+                            <img src="./assets/zuno.png" alt="partners-img">
+                        </div>
+                        <div class="partners d-flex align-items-center justify-content-center d-none d-lg-block">
+                            <img src="./assets/acko.png" alt="partners-img">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Our Insurance End -->
+            </section>
+            <!-- Our Insurance End -->
 
-        <!-- Car and What is car Insurance Start -->
-        <section class="car-insurance pb-5 px-3 px-md-4 px-lg-3">
-            <div class="mt-5">
-                <h2 class="text-center title">Car Insurance</h2>
-                <p class="descrption">Car insurance is a type of motor policy that protect you from financial loss
+            <!-- Car and What is car Insurance Start -->
+            <section class="car-insurance pb-5 px-3 px-md-4 px-lg-3">
+                <div class="mt-5">
+                    <h2 class="text-center title">Car Insurance</h2>
+                    <p class="descrption">Car insurance is a type of motor policy that protect you from financial loss
                     occurred due to damages
                     such as theft, third-party damage, man-made and natural calamities. With valid car insurance you can
                     get financial and legal protection against the damage caused by your car. Comprehensive insurance
                     policy for car provides protection against damage caused to your own car. As per the Motor Vehicles
                     Act of 1988, if you own a car, it is compulsory to have at least third-party car insurance to cover
                     damage(s) caused to others.</p>
-            </div>
-            <div class="mt-5">
-                <h2 class="text-center title">What Is Car Insurance?</h2>
-                <p class="descrption">
+                </div>
+                <div class="mt-5">
+                    <h2 class="text-center title">What Is Car Insurance?</h2>
+                    <p class="descrption">
                     Car Insurance, is a legal agreement between a car owner and an insurance company. The insurance
                     company promises to cover the costs if any damage occurs to your car that could lead to financial
                     loss. <br><br>
@@ -343,332 +360,332 @@
                     It’s important to renew your car insurance policy on time so you can keep enjoying the
                     benefits of your chosen coverage.
                 </p>
-            </div>
-        </section>
-        <!-- Car and What is car Insurance End -->
-
-        <!-- Key Feature Start -->
-        <section class="key-features pt-5 pb-5 px-3 px-md-4 px-lg-3">
-            <div class="key-features-inner">
-                <h2 class="title text-center mb-3">Key Features of Car Insurance Policy</h2>
-                <h4 class="subtitle text-center">The following are the salient features of a car insurance policy.</h4>
-                <div class="key-feature-table mt-5">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="col-lg-4 title text-center">Highlights</th>
-                                <th scope="col" class="col-lg-8 title text-center">Benefits</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Third-Party Cover</td>
-                                <td>Coverage for third-party injury and property damage.</td>
-                            </tr>
-                            <tr>
-                                <td>Own Damage Cover</td>
-                                <td>Covers the damage and loss incurred by the insured car.</td>
-                            </tr>
-                            <tr>
-                                <td>Customizable Add-on Covers</td>
-                                <td>Various add-ons are available based on the policy such as zero depreciation cover,
-                                    return to invoice cover, roadside assistance, etc.</td>
-                            </tr>
-                            <tr>
-                                <td>Compulsory Personal Accident (PA) cover</td>
-                                <td>Cover of ₹15 lakh for permanent disability/death while driving.</td>
-                            </tr>
-                            <tr>
-                                <td>Cashless Claim</td>
-                                <td>Available at the network garages of the insurer.</td>
-                            </tr>
-                            <tr>
-                                <td>No Claim Bonus</td>
-                                <td>Up to 50%</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <!-- Key Feature End -->
-
-        <div class="bookmark-section-identifier">
-            <!-- Need Insurance Start -->
-            <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section1">
-                <div class="need-insurance">
-                    <h2 class="title text-center mb-3">Why do you need Car Insurance?</h2>
-                    <h4 class="subtitle text-center mb-3 mb-lg-5">Car insurance provides several benefits to
-                        policyholders.
-                        Let’s
-                        look at
-                        some of the top benefits of buying car insurance online</h4>
-                    <div class="need-insurance-card d-grid">
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Keeps you in-accordance with the law</p>
-                            </div>
-                            <p class="descrption mt-2">Car insurance helps you comply with the law as it is mandatory
-                                for
-                                car owners in India to
-                                have at least third-party car insurance. Failure to comply can result in a fine of
-                                ₹2,000
-                                and/or imprisonment for up to 3 months.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Financial protection against Losses</p>
-                            </div>
-                            <p class="descrption mt-2">A car insurance policy can help you save money by covering huge
-                                expenses incurred due to damages and losses caused during accidents, natural calamities,
-                                fire, theft and other unforeseen circumstances. This can also help you avoid hefty
-                                traffic
-                                fines.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Protection against third-party liabilities</p>
-                            </div>
-                            <p class="descrption mt-2">In case you accidentally hit someone, a car, or someone’s
-                                property,
-                                your car insurance will cover the damages and losses incurred to the third-party. The
-                                compensation for third-party property damage is limited but there is no compensation cap
-                                in
-                                case of third-party bodily injuries, disability or death.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Own-damage protection</p>
-                            </div>
-                            <p class="descrption mt-2">Car insurance also covers the own-damage expenses of your car
-                                incurred in road accidents, natural calamities, man-made disasters, fire, explosion,
-                                vandalism, etc.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Coverage against theft</p>
-                            </div>
-                            <p class="descrption mt-2">Car insurance also covers you in case your car gets stolen. Your
-                                insurance company provides you with your car’s Insured Declared Value (IDV).</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Personal accident cover</p>
-                            </div>
-                            <p class="descrption mt-2">Car insurance also offers personal accident cover of up to ₹15
-                                Lakh
-                                in case of death, bodily injuries, or disability of the policyholder in a car accident.
-                                You
-                                can avail this add-on coverage by paying extra premium.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Additional coverage with add-ons</p>
-                            </div>
-                            <p class="descrption mt-2">With a comprehensive car insurance policy, you can add extra
-                                coverage
-                                and benefits using add-ons like zero-depreciation cover, return to invoice cover,
-                                consumables cover, and breakdown assistance, amongst others.</p>
-                        </div>
-                    </div>
                 </div>
             </section>
-            <!-- Need Insurance End -->
+            <!-- Car and What is car Insurance End -->
 
-            <!-- Difference Btw TR,OD & CC Start -->
-            <section class="diff-btw pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section2">
-                <div class="diff-btw-inner">
-                    <h2 class="title text-center mb-3">Difference Between Third Party, Own Damages, and Comprehensive
-                        Car
-                        Insurance</h2>
-                    <h4 class="subtitle text-center">To help you choose the right car insurance policy, here’s a
-                        comparative
-                        study to help you make an informed decision.</h4>
-                    <div class="key-feature-table mt-3 mt-lg-5">
+            <!-- Key Feature Start -->
+            <section class="key-features pt-5 pb-5 px-3 px-md-4 px-lg-3">
+                <div class="key-features-inner">
+                    <h2 class="title text-center mb-3">Key Features of Car Insurance Policy</h2>
+                    <h4 class="subtitle text-center">The following are the salient features of a car insurance policy.</h4>
+                    <div class="key-feature-table mt-5">
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th scope="col" class="col-3 col-lg-5 title text-center"></th>
-                                    <th scope="col" class="col-2 col-lg-2 title text-center">Third party Car Insurance
-                                        Cover
-                                    </th>
-                                    <th scope="col" class="col-2 col-lg-2 title text-center">Comprehensive Car Insurance
-                                        Cover
-                                    </th>
-                                    <th scope="col" class="col-2 col-lg-2 title text-center">Own Damage Car Insurance
-                                        Cover
-                                    </th>
+                                    <th scope="col" class="col-lg-4 title text-center">Highlights</th>
+                                    <th scope="col" class="col-lg-8 title text-center">Benefits</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Damages/Losses to own car due to an accident</td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    <td>Third-Party Cover</td>
+                                    <td>Coverage for third-party injury and property damage.</td>
                                 </tr>
                                 <tr>
-                                    <td>Damages/Losses to own car in case of fire</td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    <td>Own Damage Cover</td>
+                                    <td>Covers the damage and loss incurred by the insured car.</td>
                                 </tr>
                                 <tr>
-                                    <td>Damages/Losses to own car in case of a natural calamity</td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    <td>Customizable Add-on Covers</td>
+                                    <td>Various add-ons are available based on the policy such as zero depreciation cover,
+                                    return to invoice cover, roadside assistance, etc.</td>
                                 </tr>
                                 <tr>
-                                    <td>Damages to Third-Party Vehicle</td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                    <td>Compulsory Personal Accident (PA) cover</td>
+                                    <td>Cover of ₹15 lakh for permanent disability/death while driving.</td>
                                 </tr>
                                 <tr>
-                                    <td>Damages to Third-Party Property</td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                    <td>Cashless Claim</td>
+                                    <td>Available at the network garages of the insurer.</td>
                                 </tr>
                                 <tr>
-                                    <td>Add-on Personal Accident Cover</td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                </tr>
-                                <tr>
-                                    <td>Injuries/Death of a Third-Party Person</td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                </tr>
-                                <tr>
-                                    <td>Theft of your car</td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                </tr>
-                                <tr>
-                                    <td>Customize your IDV</td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                </tr>
-                                <tr>
-                                    <td>Extra protection with customized add-ons</td>
-                                    <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
-                                    <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    <td>No Claim Bonus</td>
+                                    <td>Up to 50%</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </section>
-            <!-- Difference Btw TR,OD & CC End -->
+            <!-- Key Feature End -->
 
-            <!-- Addon covers Start -->
-            <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section3">
-                <h2 class="title text-center mb-3">What are the add-on covers in Car Insurance policy?</h2>
-                <h4 class="subtitle text-center">Add-on covers are extra benefits that you can add to your car or
+            <div class="bookmark-section-identifier">
+                <!-- Need Insurance Start -->
+                <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section1">
+                    <div class="need-insurance">
+                        <h2 class="title text-center mb-3">Why do you need Car Insurance?</h2>
+                        <h4 class="subtitle text-center mb-3 mb-lg-5">Car insurance provides several benefits to
+                        policyholders.
+                        Let’s
+                        look at
+                        some of the top benefits of buying car insurance online</h4>
+                        <div class="need-insurance-card d-grid">
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Keeps you in-accordance with the law</p>
+                                </div>
+                                <p class="descrption mt-2">Car insurance helps you comply with the law as it is mandatory
+                                for
+                                car owners in India to
+                                have at least third-party car insurance. Failure to comply can result in a fine of
+                                ₹2,000
+                                and/or imprisonment for up to 3 months.</p>
+                            </div>
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Financial protection against Losses</p>
+                                </div>
+                                <p class="descrption mt-2">A car insurance policy can help you save money by covering huge
+                                expenses incurred due to damages and losses caused during accidents, natural calamities,
+                                fire, theft and other unforeseen circumstances. This can also help you avoid hefty
+                                traffic
+                                fines.</p>
+                            </div>
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Protection against third-party liabilities</p>
+                                </div>
+                                <p class="descrption mt-2">In case you accidentally hit someone, a car, or someone’s
+                                property,
+                                your car insurance will cover the damages and losses incurred to the third-party. The
+                                compensation for third-party property damage is limited but there is no compensation cap
+                                in
+                                case of third-party bodily injuries, disability or death.</p>
+                            </div>
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Own-damage protection</p>
+                                </div>
+                                <p class="descrption mt-2">Car insurance also covers the own-damage expenses of your car
+                                incurred in road accidents, natural calamities, man-made disasters, fire, explosion,
+                                vandalism, etc.</p>
+                            </div>
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Coverage against theft</p>
+                                </div>
+                                <p class="descrption mt-2">Car insurance also covers you in case your car gets stolen. Your
+                                insurance company provides you with your car’s Insured Declared Value (IDV).</p>
+                            </div>
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Personal accident cover</p>
+                                </div>
+                                <p class="descrption mt-2">Car insurance also offers personal accident cover of up to ₹15
+                                Lakh
+                                in case of death, bodily injuries, or disability of the policyholder in a car accident.
+                                You
+                                can avail this add-on coverage by paying extra premium.</p>
+                            </div>
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Additional coverage with add-ons</p>
+                                </div>
+                                <p class="descrption mt-2">With a comprehensive car insurance policy, you can add extra
+                                coverage
+                                and benefits using add-ons like zero-depreciation cover, return to invoice cover,
+                                consumables cover, and breakdown assistance, amongst others.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Need Insurance End -->
+
+                <!-- Difference Btw TR,OD & CC Start -->
+                <section class="diff-btw pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section2">
+                    <div class="diff-btw-inner">
+                        <h2 class="title text-center mb-3">Difference Between Third Party, Own Damages, and Comprehensive
+                        Car
+                        Insurance</h2>
+                        <h4 class="subtitle text-center">To help you choose the right car insurance policy, here’s a
+                        comparative
+                        study to help you make an informed decision.</h4>
+                        <div class="key-feature-table mt-3 mt-lg-5">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="col-3 col-lg-5 title text-center"></th>
+                                        <th scope="col" class="col-2 col-lg-2 title text-center">Third party Car Insurance
+                                        Cover
+                                    </th>
+                                        <th scope="col" class="col-2 col-lg-2 title text-center">Comprehensive Car Insurance
+                                        Cover
+                                    </th>
+                                        <th scope="col" class="col-2 col-lg-2 title text-center">Own Damage Car Insurance
+                                        Cover
+                                    </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Damages/Losses to own car due to an accident</td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Damages/Losses to own car in case of fire</td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Damages/Losses to own car in case of a natural calamity</td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Damages to Third-Party Vehicle</td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Damages to Third-Party Property</td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Add-on Personal Accident Cover</td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Injuries/Death of a Third-Party Person</td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Theft of your car</td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Customize your IDV</td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Extra protection with customized add-ons</td>
+                                        <td><img src="./assets/red-wrong-icon.svg" alt="wrong-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                        <td><img src="./assets/green-correct-icon.svg" alt="correct-icon"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!-- Difference Btw TR,OD & CC End -->
+
+                <!-- Addon covers Start -->
+                <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section3">
+                    <h2 class="title text-center mb-3">What are the add-on covers in Car Insurance policy?</h2>
+                    <h4 class="subtitle text-center">Add-on covers are extra benefits that you can add to your car or
                     four-wheeler insurance policy to increase your protection. You can buy it with a comprehensive car
                     insurance and Standalone OD Car insurance policy Here are some of the options you can choose from.
                 </h4>
-                <ol class="mt-2 mt-lg-4">
-                    <li class="px-1 pt-3">
-                        <h4 class="title">No claim bonus protection: </h4>
-                        <p class="subtitle"> This allows you to file a certain number of car insurance claims while
+                    <ol class="mt-2 mt-lg-4">
+                        <li class="px-1 pt-3">
+                            <h4 class="title">No claim bonus protection: </h4>
+                            <p class="subtitle"> This allows you to file a certain number of car insurance claims while
                             keeping
                             your No Claim
                             Bonus discount. It is only available with comprehensive car insurance.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Roadside assistance </h4>
-                        <p class="subtitle"> This provides 24/7 breakdown assistance for your car if it breaks down in a
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Roadside assistance </h4>
+                            <p class="subtitle"> This provides 24/7 breakdown assistance for your car if it breaks down in a
                             remote location. Assistance including towing, fueling, and mechanic services is provided.
                         </p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Repair of glass fiber and plastic parts</h4>
-                        <p class="subtitle">This add-on allows you to repair damaged glass, fiber, and plastic parts
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Repair of glass fiber and plastic parts</h4>
+                            <p class="subtitle">This add-on allows you to repair damaged glass, fiber, and plastic parts
                             without
                             affecting your No Claim Bonus discount. This add-on allows you to repair damaged glass,
                             fiber,
                             and plastic parts at network garage without affecting your No Claim Bonus discount at the
                             time
                             of renewal.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Daily allowance </h4>
-                        <p class="subtitle">aily Allowance Add-on provides a daily allowance to the policyholders in
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Daily allowance </h4>
+                            <p class="subtitle">aily Allowance Add-on provides a daily allowance to the policyholders in
                             case
                             the car is in the workshop for more than two days. In India, the amount of cash allowances
                             generally provided under this add-on is of ₹500 for up to 14 days. The amount of
                             compensation
                             and the number of days can vary across insurance companies.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Emergency transport and hotel expenses</h4>
-                        <p class="subtitle">This covers your overnight accommodation expenses in a hotel and travel
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Emergency transport and hotel expenses</h4>
+                            <p class="subtitle">This covers your overnight accommodation expenses in a hotel and travel
                             expenses
                             if you are unable to reach your home/ destination due to an accident.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Key replacement</h4>
-                        <p class="subtitle">This covers the cost of repairing or replacing your car keys and locks if
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Key replacement</h4>
+                            <p class="subtitle">This covers the cost of repairing or replacing your car keys and locks if
                             they
                             are damaged or lost.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Engine protection cover </h4>
-                        <p class="subtitle">One of the beneficial riders is the Engine Secure cover, which safeguards
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Engine protection cover </h4>
+                            <p class="subtitle">One of the beneficial riders is the Engine Secure cover, which safeguards
                             one of
                             your car’s most valuable parts. It covers the cost of repairing or replacing your engine in
                             case
                             of damage, especially in flood-prone areas.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Tyre secure</h4>
-                        <p class="subtitle"> Covers the cost of repairing or replacing damaged tires or tubes in case of
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Tyre secure</h4>
+                            <p class="subtitle"> Covers the cost of repairing or replacing damaged tires or tubes in case of
                             an
                             accident.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Consumables expenses</h4>
-                        <p class="subtitle">Covers the cost of replacing consumables in your car that are lost or
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Consumables expenses</h4>
+                            <p class="subtitle">Covers the cost of replacing consumables in your car that are lost or
                             damaged
                             due to an accident. Consumables include items like oil for the gearbox, air conditioner gas
                             and
                             nut and bolts. However, this add-on will not pay for fuel.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Loss of personal belongings</h4>
-                        <p class="subtitle">In case of an accident, the add-on covers the loss or damage of personal
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Loss of personal belongings</h4>
+                            <p class="subtitle">In case of an accident, the add-on covers the loss or damage of personal
                             belongings such as clothes, video and/or audio tapes, and so on. The add-on does not provide
                             coverage for the loss or damage of items like gold, cash, watches, debit and credit cards,
                             or
                             other valuables</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Return to invoice </h4>
-                        <p class="subtitle">If you have purchased the Return to Invoice add-on, and your car is
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Return to invoice </h4>
+                            <p class="subtitle">If you have purchased the Return to Invoice add-on, and your car is
                             completely
                             damaged or stolen, the insurance company will help cover the difference between the purchase
                             price and the amount of compensation you receive (due to the depreciation). Some insurers
                             may
                             also cover the registration charges and road tax you have spent on the car.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Zero depreciation cover (Depreciation Reimbursement) </h4>
-                        <p class="subtitle">The zero depreciation or nil depreciation (Depreciation Reimbursement)
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Zero depreciation cover (Depreciation Reimbursement) </h4>
+                            <p class="subtitle">The zero depreciation or nil depreciation (Depreciation Reimbursement)
                             add-on
                             allows you to recover the deducted cost of depreciation on your car’s parts when you make a
                             claim for damages. This means that you can receive up to the full sum insured without any
@@ -676,220 +693,220 @@
                             under
                             this add-on varies depending upon the insurance company and is applicable only to your
                             own-damage car insurance policy or comprehensive car insurance policy.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Personal accident cover for passengers</h4>
-                        <p class="subtitle">This covers the passengers in your car in case of accidents leading to
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Personal accident cover for passengers</h4>
+                            <p class="subtitle">This covers the passengers in your car in case of accidents leading to
                             permanent
                             disability or death.</p>
-                    </li>
-                </ol>
-            </section>
-            <!-- Addon covers End -->
+                        </li>
+                    </ol>
+                </section>
+                <!-- Addon covers End -->
 
-            <!-- Premium Calculated Start -->
-            <section class="premium-cal pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section4">
-                <div class="premium-cal-inner">
-                    <h2 class="title text-center mb-3">How Is Car Insurance Premium Calculated?</h2>
-                    <h4 class="subtitle text-center">The premium of third-party car insurance plans is regulated by
+                <!-- Premium Calculated Start -->
+                <section class="premium-cal pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section4">
+                    <div class="premium-cal-inner">
+                        <h2 class="title text-center mb-3">How Is Car Insurance Premium Calculated?</h2>
+                        <h4 class="subtitle text-center">The premium of third-party car insurance plans is regulated by
                         IRDAI,
                         while the premium for standalone own-damage and comprehensive plans varies across insurance
                         companies. Below are some of the factors that one must consider.</h4>
-                    <div class="container mt-3 mt-lg-5">
-                        <div class="row">
-                            <div class="col-lg-4 card">
-                                <h4 class="title">Insured Declared Value (IDV)</h4>
-                                <p class="subtitle">The IDV is the maximum sum insured of the four-wheeler, that is the
+                        <div class="container mt-3 mt-lg-5">
+                            <div class="row">
+                                <div class="col-lg-4 card">
+                                    <h4 class="title">Insured Declared Value (IDV)</h4>
+                                    <p class="subtitle">The IDV is the maximum sum insured of the four-wheeler, that is the
                                     amount the insurance
                                     company pays the policyholder in case of total loss. Higher IDV attracts a higher
                                     premium.</p>
-                            </div>
-                            <div class="col-lg-4 card">
-                                <h4 class="title">Engine cubic capacity</h4>
-                                <p class="subtitle"> The premium for a car insurance plan depends on the car’s engine
+                                </div>
+                                <div class="col-lg-4 card">
+                                    <h4 class="title">Engine cubic capacity</h4>
+                                    <p class="subtitle"> The premium for a car insurance plan depends on the car’s engine
                                     cubic
                                     capacity. A higher cubic capacity means a higher premium.</p>
-                            </div>
-                            <div class="col-lg-4 card">
-                                <h4 class="title">Age of the vehicle</h4>
-                                <p class="subtitle">As the car ages, its value decreases due to normal wear and tear,
+                                </div>
+                                <div class="col-lg-4 card">
+                                    <h4 class="title">Age of the vehicle</h4>
+                                    <p class="subtitle">As the car ages, its value decreases due to normal wear and tear,
                                     which
                                     reduces its market value and, in turn, its insurance premium. Thus, the premium will
                                     be
                                     generally lower due to reduced IDV, and no claim made in previous policy.</p>
-                            </div>
-                            <div class="col-lg-4 card">
-                                <h4 class="title">Make, Model, and Variant</h4>
-                                <p class="subtitle"> The car’s make, model, and variant affect its IDV, which, in turn,
+                                </div>
+                                <div class="col-lg-4 card">
+                                    <h4 class="title">Make, Model, and Variant</h4>
+                                    <p class="subtitle"> The car’s make, model, and variant affect its IDV, which, in turn,
                                     influences the car insurance premium. Also, premiums vary due to discounts by
                                     insurance
                                     companies depending on make, model and variant.</p>
-                            </div>
-                            <div class="col-lg-4 card">
-                                <h4 class="title">RTO location</h4>
-                                <p class="subtitle">One of the most important factors in determining the premium. It
+                                </div>
+                                <div class="col-lg-4 card">
+                                    <h4 class="title">RTO location</h4>
+                                    <p class="subtitle">One of the most important factors in determining the premium. It
                                     gives
                                     insurance companies an idea about the traffic density and the probability of road
                                     accidents and other mishaps of particular area. Note that the motor tariff rates
                                     also
                                     depend upon the “zone” under which the RTO falls.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- Premium Calculated End -->
+                </section>
+                <!-- Premium Calculated End -->
 
-            <!-- Reduce Insurance Start -->
-            <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section5">
-                <div class="need-insurance">
-                    <h2 class="title text-center mb-3">How to Reduce Car Insurance Premium?</h2>
-                    <h4 class="subtitle text-center mb-5">While car insurance provides financial protection against
+                <!-- Reduce Insurance Start -->
+                <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section5">
+                    <div class="need-insurance">
+                        <h2 class="title text-center mb-3">How to Reduce Car Insurance Premium?</h2>
+                        <h4 class="subtitle text-center mb-5">While car insurance provides financial protection against
                         unforeseen accidents and damages, the premiums can sometimes feel burdensome. However, with the
                         below mentioned strategies you can reduce your car insurance premium without compromising on
                         coverage.</h4>
-                    <div class="need-insurance-card d-grid">
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Compare policies</p>
-                            </div>
-                            <p class="descrption mt-2">Before selecting an insurance policy, it’s essential to compare
+                        <div class="need-insurance-card d-grid">
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Compare policies</p>
+                                </div>
+                                <p class="descrption mt-2">Before selecting an insurance policy, it’s essential to compare
                                 offerings from different insurance providers. Look for policies that provide
                                 comprehensive
                                 coverage at competitive rates. Online comparison tools and websites can be incredibly
                                 helpful in this regard.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Opt for voluntary deductibles</p>
                             </div>
-                            <p class="descrption mt-2">Voluntary deductibles involve agreeing to pay a certain portion
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Opt for voluntary deductibles</p>
+                                </div>
+                                <p class="descrption mt-2">Voluntary deductibles involve agreeing to pay a certain portion
                                 of
                                 the repair costs in case of an accident. By choosing a higher voluntary deductible, you
                                 can
                                 lower your premium amount. However, make sure you can afford the deductible amount in
                                 case
                                 of a claim.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Install security features</p>
                             </div>
-                            <p class="descrption mt-2">Equipping your car with security features such as anti-theft
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Install security features</p>
+                                </div>
+                                <p class="descrption mt-2">Equipping your car with security features such as anti-theft
                                 alarms,
                                 immobilizers, and GPS tracking devices can make your vehicle less prone to theft.
                                 Insurance
                                 companies often offer discounts for such safety measures.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Maintain a good driving record</p>
                             </div>
-                            <p class="descrption mt-2">Insurance companies reward safe driving habits. Avoiding
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Maintain a good driving record</p>
+                                </div>
+                                <p class="descrption mt-2">Insurance companies reward safe driving habits. Avoiding
                                 accidents
                                 and traffic violations over time can lead to a “no-claim bonus” (NCB) that significantly
                                 reduces your premium when you renew your policy.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Drive less</p>
                             </div>
-                            <p class="descrption mt-2">Some insurance providers offer “pay-as-you-drive” policies, where
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Drive less</p>
+                                </div>
+                                <p class="descrption mt-2">Some insurance providers offer “pay-as-you-drive” policies, where
                                 premiums are based on the distance you drive. If you don’t use your car extensively,
                                 this
                                 could be a cost-effective option.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Renew timely</p>
                             </div>
-                            <p class="descrption mt-2">Timely renewal of your policy is crucial to maintaining the
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Renew timely</p>
+                                </div>
+                                <p class="descrption mt-2">Timely renewal of your policy is crucial to maintaining the
                                 accrued
                                 benefits like NCB. Failing to renew on time can result in the loss of these benefits.
                             </p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Choose the right coverage</p>
                             </div>
-                            <p class="descrption mt-2">Assess your needs and select coverage that suits your
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Choose the right coverage</p>
+                                </div>
+                                <p class="descrption mt-2">Assess your needs and select coverage that suits your
                                 requirements.
                                 While comprehensive coverage offers extensive protection, opting for third-party
                                 coverage
                                 might be more economical if your car is older.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Avoid small claims</p>
                             </div>
-                            <p class="descrption mt-2">For minor damages that can be managed without insurance claims,
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Avoid small claims</p>
+                                </div>
+                                <p class="descrption mt-2">For minor damages that can be managed without insurance claims,
                                 consider paying out of pocket. Frequent small claims can lead to higher premiums in the
                                 long
                                 run and affects your No claim bonus.</p>
-                        </div>
-                        <div class="single-card d-flex flex-column">
-                            <div class="pointer d-flex gap-2">
-                                <img src="./assets/pointer.svg" alt="pointer-icon">
-                                <p>Renew online</p>
                             </div>
-                            <p class="descrption mt-2">
+                            <div class="single-card d-flex flex-column">
+                                <div class="pointer d-flex gap-2">
+                                    <img src="./assets/pointer.svg" alt="pointer-icon">
+                                    <p>Renew online</p>
+                                </div>
+                                <p class="descrption mt-2">
                                 Nowadays, online insurance consultants such as Elephant.in offers FLAT 80% discount on
                                 buying/renewing car insurance policy online.
                             </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- Reduce Insurance End -->
+                </section>
+                <!-- Reduce Insurance End -->
 
-            <!-- Factor to Consider Start -->
-            <section class="factor-to-consdier pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section6">
-                <div class="factor-to-consdier-inner">
-                    <h2 class="title text-center mb-3">Factors to Consider While Selecting Car Insurance Policy</h2>
-                    <h4 class="subtitle text-center">Generally, buying car insurance requires a lot of time to do
+                <!-- Factor to Consider Start -->
+                <section class="factor-to-consdier pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section6">
+                    <div class="factor-to-consdier-inner">
+                        <h2 class="title text-center mb-3">Factors to Consider While Selecting Car Insurance Policy</h2>
+                        <h4 class="subtitle text-center">Generally, buying car insurance requires a lot of time to do
                         research.
                         Hence, to make an informed decision, consider the following points before buying car insurance
                         policy:</h4>
-                    <div class="container mt-3 mt-lg-5">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">1</span>
-                                    <h4 class="title">When getting car insurance, you have two choices</h4>
-                                </div>
-                                <p class="subtitle">Basic third-party liability cover or Comprehensive insurance cover.
+                        <div class="container mt-3 mt-lg-5">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">1</span>
+                                        <h4 class="title">When getting car insurance, you have two choices</h4>
+                                    </div>
+                                    <p class="subtitle">Basic third-party liability cover or Comprehensive insurance cover.
                                     Basic cover is mandatory by law and only protects you against damages to others.
                                     Comprehensive cover is more extensive and covers accidental damage, theft, natural
                                     disasters, personal accidents and more. At Elephant.in, you can choose from
                                     different
                                     types of car insurance policies to find the one that’s best for you and your car.
                                 </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">2</span>
-                                    <h4 class="title">Check policy coverage</h4>
                                 </div>
-                                <p class="subtitle">When choosing car insurance, your policy coverage will depend on
+                                <div class="col-lg-6 col-md-12 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">2</span>
+                                        <h4 class="title">Check policy coverage</h4>
+                                    </div>
+                                    <p class="subtitle">When choosing car insurance, your policy coverage will depend on
                                     your
                                     budget and needs, as well as factors such as your car’s make and model and where you
                                     live. To help make an informed decision, you can use Elephant.in’s compare and buy
                                     feature to find a suitable insurance policy.</p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">3</span>
-                                    <h4 class="title">Check the availability of add-ons</h4>
                                 </div>
-                                <p class="subtitle">When you purchase or renew car insurance online, you can choose to
+                                <div class="col-lg-6 col-md-12 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">3</span>
+                                        <h4 class="title">Check the availability of add-ons</h4>
+                                    </div>
+                                    <p class="subtitle">When you purchase or renew car insurance online, you can choose to
                                     increase your policy coverage with add-ons. Elephant.in provides a variety of unique
                                     add-ons, like Key Replacement, Return to Invoice, Engine Secure, and others, that
                                     offer
@@ -898,13 +915,13 @@
                                     selecting the right add-ons, you can ensure comprehensive protection for your
                                     vehicle.
                                 </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">4</span>
-                                    <h4 class="title">Check insured declared value</h4>
                                 </div>
-                                <p class="subtitle"> The Insured Declared Value (IDV) of your car is its current market
+                                <div class="col-lg-6 col-md-12 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">4</span>
+                                        <h4 class="title">Check insured declared value</h4>
+                                    </div>
+                                    <p class="subtitle"> The Insured Declared Value (IDV) of your car is its current market
                                     value, which is important when getting car insurance as it determines the amount you
                                     will be insured for. In case of a total loss due to damage or theft, the insurance
                                     company will pay you the IDV when settling your claim. It’s crucial to choose the
@@ -914,27 +931,27 @@
                                     even though it may result in lower premiums. On the other hand, a higher IDV may
                                     mean
                                     more expensive premiums.</p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">5</span>
-                                    <h4 class="title">Check network of cashless garages</h4>
                                 </div>
-                                <p class="subtitle">If your car has minor or major damage, you can take it to one of
+                                <div class="col-lg-6 col-md-12 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">5</span>
+                                        <h4 class="title">Check network of cashless garages</h4>
+                                    </div>
+                                    <p class="subtitle">If your car has minor or major damage, you can take it to one of
                                     your
                                     insurance provider’s approved garages for repairs. This way, you can take advantage
                                     of
                                     cashless claims, where the insurer will pay the repair costs directly to the garage,
                                     saving you from having to spend a lot of money on repairs. Hence, it is important to
                                     check that there is a strong network of cashless garages near you.</p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">6</span>
-                                    <h4 class="title">Check claim settlement ratio, review, and the quality of services
-                                        offered</h4>
                                 </div>
-                                <p class="subtitle">When you’re buying car insurance, it’s important to consider the
+                                <div class="col-lg-6 col-md-12 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">6</span>
+                                        <h4 class="title">Check claim settlement ratio, review, and the quality of services
+                                        offered</h4>
+                                    </div>
+                                    <p class="subtitle">When you’re buying car insurance, it’s important to consider the
                                     claim
                                     settlement ratio of the insurance company. A high ratio means that you’re more
                                     likely to
@@ -943,157 +960,157 @@
                                     company can impact how loyal you feel as a customer, so it’s worth checking before
                                     you
                                     choose a four-wheeler insurance policy.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- Factor to Consider End -->
+                </section>
+                <!-- Factor to Consider End -->
 
-            <!-- File a Insurance Start -->
-            <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section7">
-                <h2 class="title text-center mb-3">How to File a Car Insurance Claim?</h2>
-                <h4 class="subtitle text-center mb-5">It’s important to know the right steps to take when making a car
+                <!-- File a Insurance Start -->
+                <section class="need-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section7">
+                    <h2 class="title text-center mb-3">How to File a Car Insurance Claim?</h2>
+                    <h4 class="subtitle text-center mb-5">It’s important to know the right steps to take when making a car
                     insurance claim, as your insurer may reject your claim for various reasons. Follow the steps below
                     to make a valid four-wheeler insurance claim.</h4>
-                <div class="container file-insurance">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-12">
-                            <h4 class="text-center">Step 1</h4>
-                            <p class="title">Report the claim</p>
-                            <p class="subtitle">Inform your insurer immediately after the accident and provide
+                    <div class="container file-insurance">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <h4 class="text-center">Step 1</h4>
+                                <p class="title">Report the claim</p>
+                                <p class="subtitle">Inform your insurer immediately after the accident and provide
                                 proper documentation and photographic evidence to support your claim.</p>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12">
-                            <h4 class="text-center">Step 2</h4>
-                            <p class="title">Inspection</p>
-                            <p class="subtitle">Once the claim is registered, an insurer’s surveyor will inspect the
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <h4 class="text-center">Step 2</h4>
+                                <p class="title">Inspection</p>
+                                <p class="subtitle">Once the claim is registered, an insurer’s surveyor will inspect the
                                 claimed damage, and you’ll need to provide the necessary documents for claim
                                 verification.</p>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12">
-                            <h4 class="text-center">Step 3</h4>
-                            <p class="title">Repair</p>
-                            <p class="subtitle">After inspection, you can send your car to a network garage for
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <h4 class="text-center">Step 3</h4>
+                                <p class="title">Repair</p>
+                                <p class="subtitle">After inspection, you can send your car to a network garage for
                                 repairs.</p>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12">
-                            <h4 class="text-center">Step 4</h4>
-                            <p class="title">Settlement</p>
-                            <p class="subtitle">If you have a cashless claim, the insurer will directly settle the
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <h4 class="text-center">Step 4</h4>
+                                <p class="title">Settlement</p>
+                                <p class="subtitle">If you have a cashless claim, the insurer will directly settle the
                                 repair bills with the network garage. However, if you have a reimbursement claim,
                                 you’ll need to pay the bills first and then make a reimbursement claim.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3">
-                    <h2 class="title text-center mb-3">Documents Required to File a Car Insurance Claim</h2>
-                    <h4 class="subtitle text-center">Here are some documents you might need to file a car insurance
+                    <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3">
+                        <h2 class="title text-center mb-3">Documents Required to File a Car Insurance Claim</h2>
+                        <h4 class="subtitle text-center">Here are some documents you might need to file a car insurance
                         claim. Keep in mind that the list of required documents could differ based on your insurance
                         company and the type of claim.
                     </h4>
-                    <ol class="mt-2 mt-lg-4">
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Driver’s license</p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Car insurance policy
+                        <ol class="mt-2 mt-lg-4">
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Driver’s license</p>
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Car insurance policy
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Registration certificate of the car policy
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Registration certificate of the car policy
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Original car key
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Original car key
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Non-traceable Certificate (if necessary)
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Non-traceable Certificate (if necessary)
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Policyholder’s identification proof
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Policyholder’s identification proof
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Fire brigade report (if applicable)
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Fire brigade report (if applicable)
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Original purchase invoice of the car (if Return to Invoice add-on cover
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Original purchase invoice of the car (if Return to Invoice add-on cover
                                 is chosen)
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Original repair bills
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Original repair bills
                             </p>
-                        </li>
-                        <li class="px-1 pt-3">
-                            <p class="subtitle">Original payment receipts
+                            </li>
+                            <li class="px-1 pt-3">
+                                <p class="subtitle">Original payment receipts
                             </p>
-                        </li>
-                    </ol>
+                            </li>
+                        </ol>
+                    </section>
                 </section>
-            </section>
-            <!-- File a Insurance End -->
+                <!-- File a Insurance End -->
 
-            <!-- Renew insurance Start -->
-            <section class="renew-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section8">
-                <div class="renew-insurance-inner">
-                    <h2 class="title text-center mb-3">How To Renew Expired Car Insurance Online?</h2>
-                    <h4 class="subtitle text-center">Renewing expired car insurance online in India has become a
+                <!-- Renew insurance Start -->
+                <section class="renew-insurance pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section8">
+                    <div class="renew-insurance-inner">
+                        <h2 class="title text-center mb-3">How To Renew Expired Car Insurance Online?</h2>
+                        <h4 class="subtitle text-center">Renewing expired car insurance online in India has become a
                         convenient
                         and swift process, ensuring that you stay legally compliant and financially protected on the
                         road.
                         Here’s a step-by-step guide on how to seamlessly renew your expired car insurance online.</h4>
-                    <div class="container mt-3 mt-lg-5">
-                        <div class="row">
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">1</span>
-                                    <h4 class="title">Assess the policy lapse period</h4>
-                                </div>
-                                <p class="subtitle">Act promptly once you realize your car insurance has expired.
+                        <div class="container mt-3 mt-lg-5">
+                            <div class="row">
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">1</span>
+                                        <h4 class="title">Assess the policy lapse period</h4>
+                                    </div>
+                                    <p class="subtitle">Act promptly once you realize your car insurance has expired.
                                     There’s
                                     usually a grace period of 90 days during which you can renew without losing your
                                     accumulated No-Claim Bonus (NCB).</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">2</span>
-                                    <h4 class="title">Visit Elephant.in and choose an insurance provider</h4>
                                 </div>
-                                <p class="subtitle">At Elephant.in you can find a variety of Car Insurance plans by the
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">2</span>
+                                        <h4 class="title">Visit Elephant.in and choose an insurance provider</h4>
+                                    </div>
+                                    <p class="subtitle">At Elephant.in you can find a variety of Car Insurance plans by the
                                     top
                                     car insurance companies in India. Research and select a policy that fits best with
                                     your
                                     needs.</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">3</span>
-                                    <h4 class="title">Gather necessary documents</h4>
                                 </div>
-                                <p class="subtitle">Keep your vehicle registration certificate (RC) and previous
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">3</span>
+                                        <h4 class="title">Gather necessary documents</h4>
+                                    </div>
+                                    <p class="subtitle">Keep your vehicle registration certificate (RC) and previous
                                     insurance
                                     policy details handy. They’re essential for a smooth renewal process.
                                 </p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">4</span>
-                                    <h4 class="title">Visit the “Renewal” section at Elephant.in-</h4>
                                 </div>
-                                <p class="subtitle">Scroll up to this page and you will find a section called “Renewals”
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">4</span>
+                                        <h4 class="title">Visit the “Renewal” section at Elephant.in-</h4>
+                                    </div>
+                                    <p class="subtitle">Scroll up to this page and you will find a section called “Renewals”
                                     click on it and login with your registered mobile number.</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">5</span>
-                                    <h4 class="title">Check your vehicle details</h4>
                                 </div>
-                                <p class="subtitle">Check your vehicle’s registration number and other details. The
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">5</span>
+                                        <h4 class="title">Check your vehicle details</h4>
+                                    </div>
+                                    <p class="subtitle">Check your vehicle’s registration number and other details. The
                                     system
                                     will retrieve your vehicle’s information. If you are not able to find your vehicle
                                     details, feel free to contact us on our toll-free number <span> 1800 266 9693</span>
@@ -1101,172 +1118,173 @@
                                     write at
                                     <a href="#">support@elephant.in</a>.
                                 </p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">6</span>
-                                    <h4 class="title">Select coverage</h4>
                                 </div>
-                                <p class="subtitle">Choose the type of coverage you need – Third-Party or you can opt
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">6</span>
+                                        <h4 class="title">Select coverage</h4>
+                                    </div>
+                                    <p class="subtitle">Choose the type of coverage you need – Third-Party or you can opt
                                     for
                                     Comprehensive coverage for enhanced protection.</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">7</span>
-                                    <h4 class="title">Review and modify details</h4>
                                 </div>
-                                <p class="subtitle">Check the details of your policy for accuracy. Make any necessary
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">7</span>
+                                        <h4 class="title">Review and modify details</h4>
+                                    </div>
+                                    <p class="subtitle">Check the details of your policy for accuracy. Make any necessary
                                     modifications, such as adding add-ons for extra coverage.</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">8</span>
-                                    <h4 class="title">Generate premium quote</h4>
                                 </div>
-                                <p class="subtitle">The system will calculate the premium based on your details and
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">8</span>
+                                        <h4 class="title">Generate premium quote</h4>
+                                    </div>
+                                    <p class="subtitle">The system will calculate the premium based on your details and
                                     coverage
                                     choices. Review the premium quote.</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">9</span>
-                                    <h4 class="title">Undergo the KYC process</h4>
                                 </div>
-                                <p class="subtitle">With digital transformation IRDAI has made it easy for everyone to
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">9</span>
+                                        <h4 class="title">Undergo the KYC process</h4>
+                                    </div>
+                                    <p class="subtitle">With digital transformation IRDAI has made it easy for everyone to
                                     compete the KYC process swiftly. Things like Digital KYC, Video KYC, Aadhaar-based
                                     KYC,
                                     and Central KYC (CKYC) are all accepted methods to verify the customer’s identity.
                                 </p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">10</span>
-                                    <h4 class="title">Make online payment</h4>
                                 </div>
-                                <p class="subtitle">Pay the premium using the available online payment options like
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">10</span>
+                                        <h4 class="title">Make online payment</h4>
+                                    </div>
+                                    <p class="subtitle">Pay the premium using the available online payment options like
                                     debit/credit cards, net banking, or digital wallets.</p>
-                            </div>
-                            <div class="col-lg-6 card">
-                                <div class="header-question d-flex align-items-center">
-                                    <span class="d-flex align-items-center justify-content-center">11</span>
-                                    <h4 class="title">Receive policy</h4>
                                 </div>
-                                <p class="subtitle">Once the payment is processed, you’ll receive the renewed policy
+                                <div class="col-lg-6 card">
+                                    <div class="header-question d-flex align-items-center">
+                                        <span class="d-flex align-items-center justify-content-center">11</span>
+                                        <h4 class="title">Receive policy</h4>
+                                    </div>
+                                    <p class="subtitle">Once the payment is processed, you’ll receive the renewed policy
                                     document via email. Print a copy for your records and future reference.</p>
-                            </div>
-                            <div class="note">
-                                <span class="bold">Note:</span><span class="subtitle"> You may be asked for vehicle
+                                </div>
+                                <div class="note">
+                                    <span class="bold">Note:</span>
+                                    <span class="subtitle"> You may be asked for vehicle
                                     inspection in certain
                                     scenario.</span>
-                                <p class="subtitle mt-4">Remember, renewing car insurance on time is crucial to avoid
+                                    <p class="subtitle mt-4">Remember, renewing car insurance on time is crucial to avoid
                                     losing
                                     out on NCB benefits
                                     and driving illegally. Online renewal offers speed and convenience, allowing you to
                                     secure your vehicle promptly.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- Renew insurance End -->
+                </section>
+                <!-- Renew insurance End -->
 
-            <!-- Terms Need to know Start -->
-            <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section9">
-                <h2 class="title text-center mb-3">Car Insurance Terms You Need to Know About</h2>
-                <h4 class="subtitle text-center">Understanding the nuances of car insurance is vital for any vehicle
+                <!-- Terms Need to know Start -->
+                <section class="addon-covers pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section9">
+                    <h2 class="title text-center mb-3">Car Insurance Terms You Need to Know About</h2>
+                    <h4 class="subtitle text-center">Understanding the nuances of car insurance is vital for any vehicle
                     owner
                     to ensure they have the right coverage and make informed decisions. Here’s a more detailed
                     explanation
                     of some essential car insurance terms.
                 </h4>
-                <ol class="mt-4">
-                    <li class="px-1 pt-3">
-                        <h4 class="title">No claim bonus protection: </h4>
-                        <p class="subtitle"> This allows you to file a certain number of car insurance claims while
+                    <ol class="mt-4">
+                        <li class="px-1 pt-3">
+                            <h4 class="title">No claim bonus protection: </h4>
+                            <p class="subtitle"> This allows you to file a certain number of car insurance claims while
                             keeping
                             your No Claim
                             Bonus discount. It is only available with comprehensive car insurance.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Roadside assistance </h4>
-                        <p class="subtitle"> This provides 24/7 breakdown assistance for your car if it breaks down in a
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Roadside assistance </h4>
+                            <p class="subtitle"> This provides 24/7 breakdown assistance for your car if it breaks down in a
                             remote location. Assistance including towing, fueling, and mechanic services is provided.
                         </p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Repair of glass fiber and plastic parts</h4>
-                        <p class="subtitle">This add-on allows you to repair damaged glass, fiber, and plastic parts
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Repair of glass fiber and plastic parts</h4>
+                            <p class="subtitle">This add-on allows you to repair damaged glass, fiber, and plastic parts
                             without
                             affecting your No Claim Bonus discount. This add-on allows you to repair damaged glass,
                             fiber,
                             and plastic parts at network garage without affecting your No Claim Bonus discount at the
                             time
                             of renewal.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Daily allowance </h4>
-                        <p class="subtitle">aily Allowance Add-on provides a daily allowance to the policyholders in
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Daily allowance </h4>
+                            <p class="subtitle">aily Allowance Add-on provides a daily allowance to the policyholders in
                             case
                             the car is in the workshop for more than two days. In India, the amount of cash allowances
                             generally provided under this add-on is of ₹500 for up to 14 days. The amount of
                             compensation
                             and the number of days can vary across insurance companies.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Emergency transport and hotel expenses</h4>
-                        <p class="subtitle">This covers your overnight accommodation expenses in a hotel and travel
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Emergency transport and hotel expenses</h4>
+                            <p class="subtitle">This covers your overnight accommodation expenses in a hotel and travel
                             expenses
                             if you are unable to reach your home/ destination due to an accident.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Key replacement</h4>
-                        <p class="subtitle">This covers the cost of repairing or replacing your car keys and locks if
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Key replacement</h4>
+                            <p class="subtitle">This covers the cost of repairing or replacing your car keys and locks if
                             they
                             are damaged or lost.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Engine protection cover </h4>
-                        <p class="subtitle">One of the beneficial riders is the Engine Secure cover, which safeguards
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Engine protection cover </h4>
+                            <p class="subtitle">One of the beneficial riders is the Engine Secure cover, which safeguards
                             one of
                             your car’s most valuable parts. It covers the cost of repairing or replacing your engine in
                             case
                             of damage, especially in flood-prone areas.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Tyre secure</h4>
-                        <p class="subtitle"> Covers the cost of repairing or replacing damaged tires or tubes in case of
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Tyre secure</h4>
+                            <p class="subtitle"> Covers the cost of repairing or replacing damaged tires or tubes in case of
                             an
                             accident.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Consumables expenses</h4>
-                        <p class="subtitle">Covers the cost of replacing consumables in your car that are lost or
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Consumables expenses</h4>
+                            <p class="subtitle">Covers the cost of replacing consumables in your car that are lost or
                             damaged
                             due to an accident. Consumables include items like oil for the gearbox, air conditioner gas
                             and
                             nut and bolts. However, this add-on will not pay for fuel.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Loss of personal belongings</h4>
-                        <p class="subtitle">In case of an accident, the add-on covers the loss or damage of personal
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Loss of personal belongings</h4>
+                            <p class="subtitle">In case of an accident, the add-on covers the loss or damage of personal
                             belongings such as clothes, video and/or audio tapes, and so on. The add-on does not provide
                             coverage for the loss or damage of items like gold, cash, watches, debit and credit cards,
                             or
                             other valuables</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Return to invoice </h4>
-                        <p class="subtitle">If you have purchased the Return to Invoice add-on, and your car is
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Return to invoice </h4>
+                            <p class="subtitle">If you have purchased the Return to Invoice add-on, and your car is
                             completely
                             damaged or stolen, the insurance company will help cover the difference between the purchase
                             price and the amount of compensation you receive (due to the depreciation). Some insurers
                             may
                             also cover the registration charges and road tax you have spent on the car.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Zero depreciation cover (Depreciation Reimbursement) </h4>
-                        <p class="subtitle">The zero depreciation or nil depreciation (Depreciation Reimbursement)
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Zero depreciation cover (Depreciation Reimbursement) </h4>
+                            <p class="subtitle">The zero depreciation or nil depreciation (Depreciation Reimbursement)
                             add-on
                             allows you to recover the deducted cost of depreciation on your car’s parts when you make a
                             claim for damages. This means that you can receive up to the full sum insured without any
@@ -1274,43 +1292,43 @@
                             under
                             this add-on varies depending upon the insurance company and is applicable only to your
                             own-damage car insurance policy or comprehensive car insurance policy.</p>
-                    </li>
-                    <li class="px-1 pt-3">
-                        <h4 class="title">Personal accident cover for passengers</h4>
-                        <p class="subtitle">This covers the passengers in your car in case of accidents leading to
+                        </li>
+                        <li class="px-1 pt-3">
+                            <h4 class="title">Personal accident cover for passengers</h4>
+                            <p class="subtitle">This covers the passengers in your car in case of accidents leading to
                             permanent
                             disability or death.</p>
-                    </li>
-                </ol>
-            </section>
-            <!-- Terms Need to know End -->
+                        </li>
+                    </ol>
+                </section>
+                <!-- Terms Need to know End -->
 
-            <!-- FAQ Start -->
-            <section class="faq pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section10">
-                <div class="faq-inner">
-                    <h2 class="title text-center mb-3">Car Insurance FAQs</h2>
-                    <div class="container  mt-3 mt-lg-5">
-                        <div>
-                            <div class="navtabs d-flex">
-                                <div class="navtab active" data-target="general">General</div>
-                                <div class="navtab" data-target="policy">Policy</div>
-                                <div class="navtab" data-target="coverage">Coverage</div>
-                                <div class="navtab" data-target="premium">Premium</div>
-                                <div class="navtab" data-target="claim">Claim</div>
-                            </div>
-                            <div id="general" class="content active">
-                                <div class="accordion mt-lg-2" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                <!-- FAQ Start -->
+                <section class="faq pt-5 pb-5 px-3 px-md-4 px-lg-3" id="section10">
+                    <div class="faq-inner">
+                        <h2 class="title text-center mb-3">Car Insurance FAQs</h2>
+                        <div class="container  mt-3 mt-lg-5">
+                            <div>
+                                <div class="navtabs d-flex">
+                                    <div class="navtab active" data-target="general">General</div>
+                                    <div class="navtab" data-target="policy">Policy</div>
+                                    <div class="navtab" data-target="coverage">Coverage</div>
+                                    <div class="navtab" data-target="premium">Premium</div>
+                                    <div class="navtab" data-target="claim">Claim</div>
+                                </div>
+                                <div id="general" class="content active">
+                                    <div class="accordion mt-lg-2" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 What is third party insurance?
                                             </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
+                                                <div class="accordion-body">
                                                 Third-party insurance is a type of liability insurance that a car owner
                                                 buys
                                                 to safeguard themselves against claims made by a third party. In case of
@@ -1318,20 +1336,20 @@
                                                 accident, the third-party insurance policyholder is responsible for
                                                 compensating any losses or damages incurred by the third party.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Is it mandatory to buy car insurance in India?
                                             </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1343,20 +1361,20 @@
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Which is the best car insurance company in India 2023?
                                             </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1367,25 +1385,25 @@
                                                 noting
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="policy" class="content">
-                                <div class="accordion mt-lg-2" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                <div id="policy" class="content">
+                                    <div class="accordion mt-lg-2" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Which is the best car insurance company in India 2023?
                                             </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1397,19 +1415,19 @@
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 What is third party insurance?
                                             </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
+                                                <div class="accordion-body">
                                                 Third-party insurance is a type of liability insurance that a car owner
                                                 buys
                                                 to safeguard themselves against claims made by a third party. In case of
@@ -1417,20 +1435,20 @@
                                                 accident, the third-party insurance policyholder is responsible for
                                                 compensating any losses or damages incurred by the third party.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Is it mandatory to buy car insurance in India?
                                             </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1441,25 +1459,25 @@
                                                 noting
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="coverage" class="content">
-                                <div class="accordion mt-lg-2" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                <div id="coverage" class="content">
+                                    <div class="accordion mt-lg-2" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Which is the best car insurance company in India 2023?
                                             </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1471,20 +1489,20 @@
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Is it mandatory to buy car insurance in India?
                                             </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1496,44 +1514,44 @@
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 What is third party insurance?
                                             </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
+                                                <div class="accordion-body">
                                                 Third-party insurance is a type of liability insurance that a car owner
                                                 buys
                                                 to safeguard themselves against claims made by a third party. In case of
                                                 an
                                                 accident, the third-party insurance policyholder is responsible for
                                                 compensating any losses or damages incurred by the third party.
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="premium" class="content">
-                                <div class="accordion mt-lg-2" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                <div id="premium" class="content">
+                                    <div class="accordion mt-lg-2" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Which is the best car insurance company in India 2023?
                                             </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1545,19 +1563,19 @@
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 What is third party insurance?
                                             </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
+                                                <div class="accordion-body">
                                                 Third-party insurance is a type of liability insurance that a car owner
                                                 buys
                                                 to safeguard themselves against claims made by a third party. In case of
@@ -1565,20 +1583,20 @@
                                                 accident, the third-party insurance policyholder is responsible for
                                                 compensating any losses or damages incurred by the third party.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Is it mandatory to buy car insurance in India?
                                             </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1589,25 +1607,25 @@
                                                 noting
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="claim" class="content">
-                                <div class="accordion mt-lg-2" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                <div id="claim" class="content">
+                                    <div class="accordion mt-lg-2" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Is it mandatory to buy car insurance in India?
                                             </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1619,19 +1637,19 @@
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 What is third party insurance?
                                             </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
+                                                <div class="accordion-body">
                                                 Third-party insurance is a type of liability insurance that a car owner
                                                 buys
                                                 to safeguard themselves against claims made by a third party. In case of
@@ -1639,20 +1657,20 @@
                                                 accident, the third-party insurance policyholder is responsible for
                                                 compensating any losses or damages incurred by the third party.
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button collapsed shadow-none" type="button"
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed shadow-none" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                 aria-expanded="true" aria-controls="collapseOne">
                                                 Which is the best car insurance company in India 2023?
                                             </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse border-0 shadow-none collapse"
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by
                                                 default, until the collapse plugin adds the appropriate classes that we
                                                 use
                                                 to style each element. These classes control the overall appearance, as
@@ -1663,6 +1681,7 @@
                                                 noting
                                                 that just about any HTML can go within the <code>.accordion-body</code>,
                                                 though the transition does limit overflow.
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1670,34 +1689,32 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- FAQ End -->
-        </div>
+                </section>
+                <!-- FAQ End -->
+            </div>
 
-
-        <!-- Modal -->
-        <div class="modal fade position-fixed" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <!-- Modal -->
+            <div class="modal fade position-fixed" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content bg-transparent shadow-none border-0">
-                    <div class="modal-header border-0">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"
+                <div class="modal-dialog">
+                    <div class="modal-content bg-transparent shadow-none border-0">
+                        <div class="modal-header border-0">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
                                 src="https://www.youtube.com/embed/UaylSc1hB9o?autoplay=1" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </main>
+        </main>
 
-    <footer>
-        <p class="disclamer pt-5 pb-5 px-2 px-md-4 px-lg-3">
+        <footer>
+            <p class="disclamer pt-5 pb-5 px-2 px-md-4 px-lg-3">
             Disclaimer: Discount applicable only to the Own Damage section and for car less than 15 years old. Discount
             may not be applicable to cars which are in the declined category of the insurance company. Employees can
             enjoy the discount by entering their work email ID subject to their company being a preferred partner
@@ -1707,45 +1724,23 @@
             plans. Standard T&C apply. Product information is authentic and solely based on the information received
             from the Insurer.
         </p>
-        <div class="container-fluid footer px-3 px-md-4 px-lg-3">
-            <div
+            <div class="container-fluid footer px-3 px-md-4 px-lg-3">
+                <div
                 class="footer-inner d-flex flex-lg-row flex-column justify-content-lg-between align-items-center h-100">
-                <p><span>Category:</span> Composite Broker</p>
-                <p><span>CIN No.</span> U67200MH2003PTC141621</p>
-                <p><span>IRDAI Registration No.</span> 217</p>
-                <p>Copyright © 2022 Alliance Insurance Brokers Pvt. Ltd.</p>
+                    <p>
+                        <span>Category:</span> Composite Broker</p>
+                    <p>
+                        <span>CIN No.</span> U67200MH2003PTC141621</p>
+                    <p>
+                        <span>IRDAI Registration No.</span> 217</p>
+                    <p>Copyright © 2022 Alliance Insurance Brokers Pvt. Ltd.</p>
+                </div>
             </div>
-        </div>
-    </footer>
-
-    <script src="./index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
-    <script>
-        var swiper = new Swiper('.blog-slider',{
-            spaceBetween: 30,
-            effect: 'fade',
-            loop: true,
-            autoplay: {
-                delay: 4000,
-            },
-            pauseOnMouseEnter: true,
-            mousewheel: {
-                invert: false,
-            },
-            pagination: {
-                el: '.blog-slider__pagination',
-                clickable: true,
-            }
-        });
-        document.querySelector('.blog-slider').addEventListener('mouseenter',function () {
-            swiper.autoplay.stop();
-        });
-
-        document.querySelector('.blog-slider').addEventListener('mouseleave',function () {
-            swiper.autoplay.start();
-        });
-    </script>
-</body>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
 
 </html>
