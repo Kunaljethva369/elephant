@@ -148,7 +148,6 @@ document.addEventListener('DOMContentLoaded',() => {
         autoplay: {
             delay: 4000,
         },
-        pauseOnMouseEnter: true,
         mousewheel: {
             invert: false,
         },
