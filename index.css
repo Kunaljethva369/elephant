@@ -1032,10 +1032,6 @@ iframe {
         width: 121px;
     }
 
-    .bookmarks-wrapper {
-        max-width: 320px;
-    }
-
     .bookmark ul li a {
         padding: 4px;
         font-size: 11px;
