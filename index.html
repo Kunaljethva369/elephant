@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Work+Sans&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -45,8 +45,8 @@
 
         <div class="bookmark position-fixed w-100" id="bookmark">
             <div class="bookmarks-wrapper d-flex h-100 align-items-center">
-                <span class="bookmarks-left mx-lg-4 mx-1" style="display: none;"><img src="./assets/bookmark-left-arrow.svg"
-                        alt="bookmarkLeftarrow"></span>
+                <span class="bookmarks-left mx-lg-4 mx-1" style="display: none;"><img
+                        src="./assets/bookmark-left-arrow.svg" alt="bookmarkLeftarrow"></span>
                 <ul class="bookmarks-list gap-0 gap-lg-4 mb-0">
                     <li class="list-unstyled"><a href="#section1" data-index="1" class="text-decoration-none active">Why
                             do you need car insurance</a></li>
@@ -69,8 +69,8 @@
                     <li class="list-unstyled"><a href="#section10" data-index="10" class="text-decoration-none">FAQ</a>
                     </li>
                 </ul>
-                <span class="bookmarks-right mx-lg-4 mx-1" style="display: flex;"><img src="./assets/bookmark-right-arrow.svg"
-                        alt="bookmarkrightarrow"></span>
+                <span class="bookmarks-right mx-lg-4 mx-1" style="display: flex;"><img
+                        src="./assets/bookmark-right-arrow.svg" alt="bookmarkrightarrow"></span>
             </div>
         </div>
 
@@ -86,147 +86,203 @@
         <!-- Video End -->
 
         <!-- Hero Section Start -->
-        <section class="container hero-section d-flex">
-            <div class="row">
-                <div class="left-section">
-                    <div class="hero-section-outer-cover position-relative">
-                        <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
-                            type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+        <section class="container hero-section d-flex flex-xl-row flex-column">
+            <div class="left-section">
+                <div class="blog-slider position-relative">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="hero-section-outer-cover position-relative">
+                                <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
+                                    type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+                                </div>
+                                <div class="hero-section-inner">
+                                    <h2 class="title">Exclusive Individual Term Life Insurance Plans for
+                                        <span class="spc">
+                                            corporate employee
+                                        </span>
+                                    </h2>
+                                    <p class="question-title mt-1 mt-lg-4">What does your term life insurance cover you
+                                        for?</p>
+                                    <ul class="list-unstyled px-2">
+                                        <li class="position-relative mt-1 mt-lg-2">Death benefit</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Critical illnesses benefit</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Accidental death benefit</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Waiver of premium</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Income tax benefits</li>
+                                        <li class="position-relative mt-1 mt-lg-2">And much more…</li>
+                                    </ul>
+                                    <div class="hero-img">
+                                        <img src="./assets/carousel-first.png" alt="first-carousel">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="hero-section-inner">
-                            <h2 class="title">Exclusive Individual Term Life Insurance Plans for
-                                <span class="spc">
-                                    corporate employee
-                                </span>
-                            </h2>
-                            <p class="question-title mt-1 mt-lg-4">What does your term life insurance cover you for?</p>
-                            <ul class="list-unstyled px-2">
-                                <li class="position-relative mt-1 mt-lg-2">Death benefit</li>
-                                <li class="position-relative mt-1 mt-lg-2">Critical illnesses benefit</li>
-                                <li class="position-relative mt-1 mt-lg-2">Accidental death benefit</li>
-                                <li class="position-relative mt-1 mt-lg-2">Waiver of premium</li>
-                                <li class="position-relative mt-1 mt-lg-2">Income tax benefits</li>
-                                <li class="position-relative mt-1 mt-lg-2">And much more…</li>
-                            </ul>
-                            <div class="hero-img">
-                                <img src="./assets/carousel-first.png" alt="first-carousel">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="hero-section-outer-cover position-relative">
+                                <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
+                                    type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+                                </div>
+                                <div class="hero-section-inner pt-4">
+                                    <h2 class="title">Use your
+                                        <span class="spc">
+                                            work email id
+                                        </span>
+                                        and avail exclusive features on your Term Life Insurance
+                                    </h2>
+                                    <ul class="list-unstyled px-2 pt-lg-2">
+                                        <li class="position-relative mt-1 mt-lg-2">Paperless documentation</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Hassle-free KYC underwriting</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Stress-free medical underwriting</li>
+                                    </ul>
+                                    <div class="hero-img">
+                                        <img src="./assets/carousel-second.png" alt="second-carousel">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="hero-section-outer-cover position-relative">
+                                <div class="video-pop d-lg-flex align-items-center gap-2 position-absolute bg-transparent shadow-none w-auto d-md-none d-lg-none"
+                                    type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="./assets/play-organge-icon.png" alt="play-icon" class="girl-img">
+                                </div>
+                                <div class="hero-section-inner pt-4">
+                                    <h2 class="title">Exclusive
+                                        <span class="spc">
+                                            Elephant.in
+                                        </span>
+                                        benefits you cannot miss
+                                    </h2>
+                                    <ul class="list-unstyled px-2 pt-lg-2">
+                                        <li class="position-relative mt-1 mt-lg-2">Laxmi - AI powered recommendation
+                                            feature</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Expert Advisory at the click of
+                                            button</li>
+                                        <li class="position-relative mt-1 mt-lg-2">Dedicated Claim Advisor</li>
+                                    </ul>
+                                    <div class="hero-img">
+                                        <img src="./assets/carousel-third.png" alt="first-carousel">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="blog-slider__pagination"></div>
                 </div>
-                <div class="right-section">
-                    <h4 class="form-title">Comapre & Buy Term Life Insurance</h4>
-                    <div class="form">
-                        <form onsubmit="submitForm(event)">
-                            <div class="custom-wrap mt-0 d-flex align-items-end justify-content-center">
-                                <div class="email-feild inputFieldCust position-relative">
-                                    <div class="email-label d-flex mb-2 align-items-center">
-                                        <img src="./assets/gift-icon.svg" alt="gift-icon" class="mx-2">
-                                        <p>Exclusive discounts and corporate offers</p>
-                                    </div>
-                                    <input class="common-feild" id="email" type="email" placeholder="Work Email ID">
-                                    <span class="error">Please enter valid email id</span>
+            </div>
+            <div class="right-section">
+                <h4 class="form-title">Comapre & Buy Term Life Insurance</h4>
+                <div class="form">
+                    <form onsubmit="submitForm(event)">
+                        <div class="custom-wrap mt-0 d-flex align-items-end justify-content-center">
+                            <div class="email-feild inputFieldCust position-relative">
+                                <div class="email-label d-flex mb-2 align-items-center">
+                                    <img src="./assets/gift-icon.svg" alt="gift-icon" class="mx-2">
+                                    <p>Exclusive discounts and corporate offers</p>
                                 </div>
-                                <div class="inputFieldCust position-relative">
-                                    <input type="text" placeholder="Date of Birth (DD/MM/YYYY)">
-                                </div>
+                                <input class="common-feild" id="email" type="email" placeholder="Work Email ID">
+                                <span class="error">Please enter valid email id</span>
                             </div>
-                            <div class="custom-wrap d-flex align-items-end justify-content-center">
-                                <div class="radio-container d-flex">
+                            <div class="inputFieldCust position-relative">
+                                <input type="text" placeholder="Date of Birth (DD/MM/YYYY)">
+                            </div>
+                        </div>
+                        <div class="custom-wrap d-flex align-items-end justify-content-center">
+                            <div class="radio-container d-flex">
 
-                                    <div class="radiocustom smokeNo">
-                                        <label class="d-flex align-items-center justify-content-around h-100 checked">
-                                            <img src="./assets/no-cigi.svg" alt="cigi">
-                                            <span>No</span>
-                                            <input type="radio" name="tabaco">
-                                        </label>
-                                    </div>
-                                    <div class="radiocustom smokeYes">
-                                        <label class="d-flex align-items-center justify-content-around h-100">
-                                            <img src="./assets/cigi.svg" alt="cigi">
-                                            <span>Yes</span>
-                                            <input type="radio" name="tabaco">
-                                        </label>
-                                    </div>
+                                <div class="radiocustom smokeNo">
+                                    <label class="d-flex align-items-center justify-content-around h-100 checked">
+                                        <img src="./assets/no-cigi.svg" alt="cigi">
+                                        <span>No</span>
+                                        <input type="radio" name="tabaco">
+                                    </label>
                                 </div>
-                                <div class="radio-container d-flex">
-                                    <div class="radiocustom gendmale">
-                                        <label class="d-flex align-items-center justify-content-around h-100">
-                                            <img src="./assets/male-icon.svg" alt="male-icon">
-                                            <span>No</span>
-                                            <input type="radio" name="tabaco">
-                                        </label>
-                                    </div>
-                                    <div class="radiocustom gendfemale">
-                                        <label class="d-flex align-items-center justify-content-around h-100">
-                                            <img src="./assets/female-icon.svg" alt="female-icon">
-                                            <span>Yes</span>
-                                            <input type="radio" name="tabaco">
-                                        </label>
-                                    </div>
+                                <div class="radiocustom smokeYes">
+                                    <label class="d-flex align-items-center justify-content-around h-100">
+                                        <img src="./assets/cigi.svg" alt="cigi">
+                                        <span>Yes</span>
+                                        <input type="radio" name="tabaco">
+                                    </label>
                                 </div>
                             </div>
-                            <div class="custom-wrap d-flex align-items-end justify-content-center">
-                                <div class="email-feild inputFieldCust position-relative">
-                                    <select>
-                                        <option value="0">Select Education</option>
-                                        <option value="1">MSC</option>
-                                        <option value="2">BSC</option>
-                                        <option value="3">12TH</option>
-                                        <option value="4">10TH</option>
-                                    </select>
+                            <div class="radio-container d-flex">
+                                <div class="radiocustom gendmale">
+                                    <label class="d-flex align-items-center justify-content-around h-100">
+                                        <img src="./assets/male-icon.svg" alt="male-icon">
+                                        <span>No</span>
+                                        <input type="radio" name="tabaco">
+                                    </label>
                                 </div>
-                                <div class="inputFieldCust position-relative">
-                                    <select>
-                                        <option value="0">Select Annual Income</option>
-                                        <option value="1">1 - 5 Lakh</option>
-                                        <option value="2">5 - 10 Lakh</option>
-                                        <option value="3">10 - 15 Lakh</option>
-                                        <option value="4">15Lakh & Above</option>
-                                    </select>
+                                <div class="radiocustom gendfemale">
+                                    <label class="d-flex align-items-center justify-content-around h-100">
+                                        <img src="./assets/female-icon.svg" alt="female-icon">
+                                        <span>Yes</span>
+                                        <input type="radio" name="tabaco">
+                                    </label>
                                 </div>
                             </div>
-                            <div class="custom-wrap d-flex align-items-end justify-content-center">
-                                <div class="email-feild inputFieldCust position-relative">
-                                    <input class="common-feild" type="text" placeholder="First Name">
-                                </div>
-                                <div class="inputFieldCust position-relative">
-                                    <input type="name" placeholder="Last Name">
-                                </div>
+                        </div>
+                        <div class="custom-wrap d-flex align-items-end justify-content-center">
+                            <div class="email-feild inputFieldCust position-relative">
+                                <select>
+                                    <option value="0">Select Education</option>
+                                    <option value="1">MSC</option>
+                                    <option value="2">BSC</option>
+                                    <option value="3">12TH</option>
+                                    <option value="4">10TH</option>
+                                </select>
                             </div>
-                            <div class="custom-wrap d-flex align-items-end justify-content-center">
-                                <div class="email-feild inputFieldCust position-relative">
-                                    <input class="common-feild" type="email" placeholder="Personal Email ID">
-                                    <p class="label mt-lg-1 mx-lg-1">Your quote, policy and all communications will be
-                                        sent on it</p>
-                                </div>
-                                <div class="inputFieldCust position-relative">
-                                    <input type="number" placeholder="Mobile Number">
-                                    <p class="label mt-lg-1 mx-lg-1">Mobile No. will be your Customer Login ID</p>
-                                </div>
+                            <div class="inputFieldCust position-relative">
+                                <select>
+                                    <option value="0">Select Annual Income</option>
+                                    <option value="1">1 - 5 Lakh</option>
+                                    <option value="2">5 - 10 Lakh</option>
+                                    <option value="3">10 - 15 Lakh</option>
+                                    <option value="4">15Lakh & Above</option>
+                                </select>
                             </div>
-                            <button type="submit"
-                                class="d-flex align-items-center justify-content-center mt-3 mt-lg-5 gap-2">
-                                <span>VIEW QUOTES</span>
-                                <img src="./assets/left-arrow.svg" alt="left-arrow">
-                            </button>
-                        </form>
-                        <div class="privacy-policy mt-3">
-                            <p>
-                                Your information stays between us. We never, ever sell your info to third parties - we
-                                hate spam, too.
-                            <p>
-                                By clicking on “View Quotes”, you agree to our
-                                <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>
-                            </p>
-                            </p>
-                            <div class="whatsapp d-flex align-items-center justify-content-center gap-2 mt-2 mb-3">
-                                <img src="./assets/whatsapp-icon.svg" alt="whatsapp-icon">
-                                <p>Get updates on WhatsApp</p>
-                                <div class="check-box position-relative">
-                                    <input type="checkbox" checked>
-                                </div>
+                        </div>
+                        <div class="custom-wrap d-flex align-items-end justify-content-center">
+                            <div class="email-feild inputFieldCust position-relative">
+                                <input class="common-feild" type="text" placeholder="First Name">
+                            </div>
+                            <div class="inputFieldCust position-relative">
+                                <input type="name" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="custom-wrap d-flex align-items-end justify-content-center">
+                            <div class="email-feild inputFieldCust position-relative">
+                                <input class="common-feild" type="email" placeholder="Personal Email ID">
+                                <p class="label mt-lg-1 mx-lg-1">Your quote, policy and all communications will be
+                                    sent on it</p>
+                            </div>
+                            <div class="inputFieldCust position-relative">
+                                <input type="number" placeholder="Mobile Number">
+                                <p class="label mt-lg-1 mx-lg-1">Mobile No. will be your Customer Login ID</p>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="d-flex align-items-center justify-content-center mt-3 mt-lg-5 gap-2 w-100">
+                            <span>VIEW QUOTES</span>
+                            <img src="./assets/left-arrow.svg" alt="left-arrow">
+                        </button>
+                    </form>
+                    <div class="privacy-policy mt-3">
+                        <p>
+                            Your information stays between us. We never, ever sell your info to third parties - we
+                            hate spam, too.
+                        <p>
+                            By clicking on “View Quotes”, you agree to our
+                            <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>
+                        </p>
+                        </p>
+                        <div class="whatsapp d-flex align-items-center justify-content-center gap-2 mt-2 mb-3">
+                            <img src="./assets/whatsapp-icon.svg" alt="whatsapp-icon">
+                            <p>Get updates on WhatsApp</p>
+                            <div class="check-box position-relative">
+                                <input type="checkbox" checked>
                             </div>
                         </div>
                     </div>
@@ -1663,7 +1719,33 @@
     </footer>
 
     <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.blog-slider',{
+            spaceBetween: 30,
+            effect: 'fade',
+            loop: true,
+            autoplay: {
+                delay: 4000,
+            },
+            pauseOnMouseEnter: true,
+            mousewheel: {
+                invert: false,
+            },
+            pagination: {
+                el: '.blog-slider__pagination',
+                clickable: true,
+            }
+        });
+        document.querySelector('.blog-slider').addEventListener('mouseenter',function () {
+            swiper.autoplay.stop();
+        });
 
+        document.querySelector('.blog-slider').addEventListener('mouseleave',function () {
+            swiper.autoplay.start();
+        });
+    </script>
 </body>
 
 </html>
