@@ -174,6 +174,7 @@ function validateEmail() {
 
     if (!emailRegex.test(email)) {
         document.querySelector(".error").style.display = 'block';
+        emailInput.focus();
         return false;
     } else {
         document.querySelector(".error").style.display = 'none';
